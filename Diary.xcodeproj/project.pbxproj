@@ -15,6 +15,11 @@
 		BEC6730F1F9C3C61003B4959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC6730E1F9C3C61003B4959 /* Assets.xcassets */; };
 		BEC673121F9C3C61003B4959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC673101F9C3C61003B4959 /* LaunchScreen.storyboard */; };
 		BEC673231F9C3F90003B4959 /* DiaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673221F9C3F90003B4959 /* DiaryVC.m */; };
+		BEC673281F9C4259003B4959 /* CJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673271F9C4259003B4959 /* CJNavigationController.m */; };
+		BEC6732E1F9C426F003B4959 /* LLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC6732B1F9C426F003B4959 /* LLTabBar.m */; };
+		BEC6732F1F9C426F003B4959 /* LLTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC6732D1F9C426F003B4959 /* LLTabBarItem.m */; };
+		BEC673351F9CB848003B4959 /* ZYMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673341F9CB848003B4959 /* ZYMainVC.m */; };
+		BEC673381F9CB882003B4959 /* MyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673371F9CB882003B4959 /* MyVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,17 @@
 		BEC673131F9C3C61003B4959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC673211F9C3F90003B4959 /* DiaryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryVC.h; sourceTree = "<group>"; };
 		BEC673221F9C3F90003B4959 /* DiaryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryVC.m; sourceTree = "<group>"; };
+		BEC673261F9C4259003B4959 /* CJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJNavigationController.h; sourceTree = "<group>"; };
+		BEC673271F9C4259003B4959 /* CJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJNavigationController.m; sourceTree = "<group>"; };
+		BEC6732A1F9C426F003B4959 /* LLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTabBar.h; sourceTree = "<group>"; };
+		BEC6732B1F9C426F003B4959 /* LLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTabBar.m; sourceTree = "<group>"; };
+		BEC6732C1F9C426F003B4959 /* LLTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTabBarItem.h; sourceTree = "<group>"; };
+		BEC6732D1F9C426F003B4959 /* LLTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTabBarItem.m; sourceTree = "<group>"; };
+		BEC673321F9C4830003B4959 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BEC673331F9CB848003B4959 /* ZYMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYMainVC.h; sourceTree = "<group>"; };
+		BEC673341F9CB848003B4959 /* ZYMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYMainVC.m; sourceTree = "<group>"; };
+		BEC673361F9CB882003B4959 /* MyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVC.h; sourceTree = "<group>"; };
+		BEC673371F9CB882003B4959 /* MyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,11 @@
 				BEC673061F9C3C61003B4959 /* AppDelegate.m */,
 				BEC673081F9C3C61003B4959 /* ViewController.h */,
 				BEC673091F9C3C61003B4959 /* ViewController.m */,
+				BEC673331F9CB848003B4959 /* ZYMainVC.h */,
+				BEC673341F9CB848003B4959 /* ZYMainVC.m */,
+				BEC673321F9C4830003B4959 /* PrefixHeader.pch */,
+				BEC673301F9C42EA003B4959 /* Tool */,
+				BEC673241F9C4239003B4959 /* GitPack */,
 				BEC6730B1F9C3C61003B4959 /* Main.storyboard */,
 				BEC6731D1F9C3F7B003B4959 /* my */,
 				BEC673191F9C3F67003B4959 /* Diary */,
@@ -146,6 +167,8 @@
 		BEC6731E1F9C3F7B003B4959 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				BEC673361F9CB882003B4959 /* MyVC.h */,
+				BEC673371F9CB882003B4959 /* MyVC.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -162,6 +185,42 @@
 			children = (
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		BEC673241F9C4239003B4959 /* GitPack */ = {
+			isa = PBXGroup;
+			children = (
+				BEC673291F9C426F003B4959 /* LLTabBar */,
+				BEC673251F9C4259003B4959 /* CJNavigationController */,
+			);
+			path = GitPack;
+			sourceTree = "<group>";
+		};
+		BEC673251F9C4259003B4959 /* CJNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BEC673261F9C4259003B4959 /* CJNavigationController.h */,
+				BEC673271F9C4259003B4959 /* CJNavigationController.m */,
+			);
+			path = CJNavigationController;
+			sourceTree = "<group>";
+		};
+		BEC673291F9C426F003B4959 /* LLTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BEC6732A1F9C426F003B4959 /* LLTabBar.h */,
+				BEC6732B1F9C426F003B4959 /* LLTabBar.m */,
+				BEC6732C1F9C426F003B4959 /* LLTabBarItem.h */,
+				BEC6732D1F9C426F003B4959 /* LLTabBarItem.m */,
+			);
+			path = LLTabBar;
+			sourceTree = "<group>";
+		};
+		BEC673301F9C42EA003B4959 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		DB0769D824933BB5EC3E6FE1 /* Frameworks */ = {
@@ -296,8 +355,13 @@
 			files = (
 				BEC6730A1F9C3C61003B4959 /* ViewController.m in Sources */,
 				BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */,
+				BEC673381F9CB882003B4959 /* MyVC.m in Sources */,
+				BEC673281F9C4259003B4959 /* CJNavigationController.m in Sources */,
 				BEC673231F9C3F90003B4959 /* DiaryVC.m in Sources */,
 				BEC673041F9C3C61003B4959 /* main.m in Sources */,
+				BEC6732E1F9C426F003B4959 /* LLTabBar.m in Sources */,
+				BEC673351F9CB848003B4959 /* ZYMainVC.m in Sources */,
+				BEC6732F1F9C426F003B4959 /* LLTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +482,7 @@
 			baseConfigurationReference = 906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Diary/PrefixHeader.pch";
 				INFOPLIST_FILE = Diary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zy.Diary;
@@ -430,6 +495,7 @@
 			baseConfigurationReference = 802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Diary/PrefixHeader.pch";
 				INFOPLIST_FILE = Diary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zy.Diary;
