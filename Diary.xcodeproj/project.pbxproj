@@ -14,6 +14,7 @@
 		BEC6730D1F9C3C61003B4959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC6730B1F9C3C61003B4959 /* Main.storyboard */; };
 		BEC6730F1F9C3C61003B4959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC6730E1F9C3C61003B4959 /* Assets.xcassets */; };
 		BEC673121F9C3C61003B4959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC673101F9C3C61003B4959 /* LaunchScreen.storyboard */; };
+		BEC673231F9C3F90003B4959 /* DiaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673221F9C3F90003B4959 /* DiaryVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		BEC6730E1F9C3C61003B4959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEC673111F9C3C61003B4959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEC673131F9C3C61003B4959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC673211F9C3F90003B4959 /* DiaryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryVC.h; sourceTree = "<group>"; };
+		BEC673221F9C3F90003B4959 /* DiaryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				BEC673081F9C3C61003B4959 /* ViewController.h */,
 				BEC673091F9C3C61003B4959 /* ViewController.m */,
 				BEC6730B1F9C3C61003B4959 /* Main.storyboard */,
+				BEC6731D1F9C3F7B003B4959 /* my */,
+				BEC673191F9C3F67003B4959 /* Diary */,
 				BEC6730E1F9C3C61003B4959 /* Assets.xcassets */,
 				BEC673101F9C3C61003B4959 /* LaunchScreen.storyboard */,
 				BEC673131F9C3C61003B4959 /* Info.plist */,
@@ -93,6 +98,70 @@
 				BEC673031F9C3C61003B4959 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC673191F9C3F67003B4959 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				BEC6731A1F9C3F67003B4959 /* controller */,
+				BEC6731B1F9C3F67003B4959 /* model */,
+				BEC6731C1F9C3F67003B4959 /* view */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		BEC6731A1F9C3F67003B4959 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEC673211F9C3F90003B4959 /* DiaryVC.h */,
+				BEC673221F9C3F90003B4959 /* DiaryVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BEC6731B1F9C3F67003B4959 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BEC6731C1F9C3F67003B4959 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		BEC6731D1F9C3F7B003B4959 /* my */ = {
+			isa = PBXGroup;
+			children = (
+				BEC6731E1F9C3F7B003B4959 /* controller */,
+				BEC6731F1F9C3F7B003B4959 /* model */,
+				BEC673201F9C3F7B003B4959 /* view */,
+			);
+			path = my;
+			sourceTree = "<group>";
+		};
+		BEC6731E1F9C3F7B003B4959 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		BEC6731F1F9C3F7B003B4959 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BEC673201F9C3F7B003B4959 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		DB0769D824933BB5EC3E6FE1 /* Frameworks */ = {
@@ -227,6 +296,7 @@
 			files = (
 				BEC6730A1F9C3C61003B4959 /* ViewController.m in Sources */,
 				BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */,
+				BEC673231F9C3F90003B4959 /* DiaryVC.m in Sources */,
 				BEC673041F9C3C61003B4959 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +456,7 @@
 				BEC673181F9C3C61003B4959 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
