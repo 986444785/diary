@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B44D1FE8536831BC4B3E8B3 /* libPods-Diary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301E254A167DB6A4CF998C10 /* libPods-Diary.a */; };
 		BEC673041F9C3C61003B4959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673031F9C3C61003B4959 /* main.m */; };
 		BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673061F9C3C61003B4959 /* AppDelegate.m */; };
 		BEC6730A1F9C3C61003B4959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673091F9C3C61003B4959 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301E254A167DB6A4CF998C10 /* libPods-Diary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Diary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diary/Pods-Diary.release.xcconfig"; sourceTree = "<group>"; };
+		906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diary/Pods-Diary.debug.xcconfig"; sourceTree = "<group>"; };
 		BEC672FF1F9C3C61003B4959 /* Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC673031F9C3C61003B4959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEC673051F9C3C61003B4959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B44D1FE8536831BC4B3E8B3 /* libPods-Diary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48BA39AC0BA651EAEFCAD257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */,
+				802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BEC672F61F9C3C61003B4959 = {
 			isa = PBXGroup;
 			children = (
 				BEC673011F9C3C61003B4959 /* Diary */,
 				BEC673001F9C3C61003B4959 /* Products */,
+				48BA39AC0BA651EAEFCAD257 /* Pods */,
+				DB0769D824933BB5EC3E6FE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +95,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DB0769D824933BB5EC3E6FE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				301E254A167DB6A4CF998C10 /* libPods-Diary.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC673161F9C3C61003B4959 /* Build configuration list for PBXNativeTarget "Diary" */;
 			buildPhases = (
+				D53347251E5C1A1BEAA4E498 /* [CP] Check Pods Manifest.lock */,
 				BEC672FB1F9C3C61003B4959 /* Sources */,
 				BEC672FC1F9C3C61003B4959 /* Frameworks */,
 				BEC672FD1F9C3C61003B4959 /* Resources */,
+				2BF4CF12F8FB2E0A5995F8A1 /* [CP] Embed Pods Frameworks */,
+				2DCD172C0CE0B98372B92960 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BF4CF12F8FB2E0A5995F8A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diary/Pods-Diary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DCD172C0CE0B98372B92960 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diary/Pods-Diary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53347251E5C1A1BEAA4E498 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEC672FB1F9C3C61003B4959 /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		BEC673171F9C3C61003B4959 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Diary/Info.plist;
@@ -281,6 +357,7 @@
 		};
 		BEC673181F9C3C61003B4959 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Diary/Info.plist;
