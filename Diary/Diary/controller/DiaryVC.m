@@ -7,23 +7,15 @@
 // 
  
 #import "DiaryVC.h"
-
+#import "dModel.h"
 @interface DiaryVC ()
-
+@property(nonatomic,strong) NSArray * lists;
 @end
 
 @implementation DiaryVC
-
-/*
- //git使用
- 首先选择上传的地方，比如码云，码市，github
- 1.在github创建一个远程仓库
- 2.创建一个本地仓库，git init   ， git status查看状态   ， git add .   把文件添加到工作区域，    git commit -m'测试' 将代码提交到本地仓库的master区域
- 3.git remote add origin 地址  ，添加远程关联
- 4.git push origin master 提交到远程仓库
-
  
- */
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -32,11 +24,26 @@
      self.view.backgroundColor = [UIColor grayColor];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)requestData{
+    
+    NSString * mainUrl  = @"http://192.168.100.42//My2017/ZYMySqlite/api.php?method=requestDiaryList";
+    
+    __weak typeof(self) vc = self;
+    [[NetworkTool sharedTool] zyRequestWithURL:mainUrl method:@"GET" parameters:nil success:^(id response) {
+        
+        NSLog(@"respnose:%@",response);
+        
+        NSLog(@"数据 :%@",response[@"msg"]);
+         
+        //        vc.lists = response[@"lists"];
+        
+        vc.lists  =[NSArray yy_modelArrayWithClass:[dModel class] json:response[@"lists"]];
+        
+        
+    } failure:^(NSString *errorStr) {
+        NSLog(@"%@",errorStr);
+    }];
 }
-
 
 
 @end

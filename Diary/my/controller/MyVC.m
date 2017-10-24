@@ -7,10 +7,13 @@
 //
 
 #import "MyVC.h"
+#import "MyCell.h"
 
-@interface MyVC ()
+@interface MyVC ()<UITableViewDelegate,UITableViewDataSource>
+@property(nonatomic,strong) UITableView * tableview;
+@property(nonatomic,strong) NSArray * lists;
 
-@end 
+@end
 
 @implementation MyVC
 
@@ -19,21 +22,33 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor greenColor];
+    _lists = @[@"设置",@"IP",@"其他"];
+    
+    [self buildTableview];
+     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)buildTableview{
+    _tableview = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    _tableview.delegate = self;
+    _tableview.dataSource = self;
+    [self.view addSubview:_tableview];
+    //高度自适应
+    _tableview.estimatedRowHeight = 140;
+    _tableview.rowHeight = UITableViewAutomaticDimension;
+    [_tableview registerNib:[UINib nibWithNibName:@"MyCell" bundle:nil] forCellReuseIdentifier:@"MyCell"];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return _lists.count;
 }
-*/
 
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    MyCell * cell = [tableView dequeueReusableCellWithIdentifier:@"MyCell"];
+    
+    [cell updateCellStr:_lists[indexPath.row]];
+    
+    return cell;
+}
 @end

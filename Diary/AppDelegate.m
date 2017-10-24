@@ -18,6 +18,25 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+     
+    /*
+     //git使用
+     首先选择上传的地方，比如码云，码市，github
+     1.在github创建一个远程仓库
+     2.创建一个本地仓库，git init   ， git status查看状态   ， git add .   把文件添加到工作区域，    git commit -m'测试' 将代码提交到本地仓库的master区域
+     3.git remote add origin 地址  ，添加远程关联
+     4.git push origin master 提交到远程仓库
+     */
+    
+    
+    /*
+     git下载自己项目到本地
+     假如外出工作，需要在另一台电脑上面pull自己的某个git远程项目到本地
+     http://www.cnblogs.com/TTyb/p/6037548.html
+     */
+    
+    
+       
     [ZYMainVC MainViewControllerWithDelegate:self];
     
     return YES;

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10E875311F9F219400BDAE4E /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8752F1F9F219400BDAE4E /* MyCell.m */; };
+		10E875321F9F219400BDAE4E /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E875301F9F219400BDAE4E /* MyCell.xib */; };
+		10E875361F9F229E00BDAE4E /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E875351F9F229E00BDAE4E /* NetworkTool.m */; };
+		10E875391F9F236D00BDAE4E /* dModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E875381F9F236D00BDAE4E /* dModel.m */; };
 		7B44D1FE8536831BC4B3E8B3 /* libPods-Diary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301E254A167DB6A4CF998C10 /* libPods-Diary.a */; };
 		BEC673041F9C3C61003B4959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673031F9C3C61003B4959 /* main.m */; };
 		BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673061F9C3C61003B4959 /* AppDelegate.m */; };
@@ -23,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10E8752E1F9F219400BDAE4E /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		10E8752F1F9F219400BDAE4E /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		10E875301F9F219400BDAE4E /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		10E875341F9F229E00BDAE4E /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		10E875351F9F229E00BDAE4E /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		10E875371F9F236D00BDAE4E /* dModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dModel.h; sourceTree = "<group>"; };
+		10E875381F9F236D00BDAE4E /* dModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dModel.m; sourceTree = "<group>"; };
 		301E254A167DB6A4CF998C10 /* libPods-Diary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Diary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diary/Pods-Diary.release.xcconfig"; sourceTree = "<group>"; };
 		906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diary/Pods-Diary.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +74,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10E875251F9F20FC00BDAE4E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				10E8752E1F9F219400BDAE4E /* MyCell.h */,
+				10E8752F1F9F219400BDAE4E /* MyCell.m */,
+				10E875301F9F219400BDAE4E /* MyCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		10E875261F9F20FC00BDAE4E /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		10E875271F9F210F00BDAE4E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				10E875371F9F236D00BDAE4E /* dModel.h */,
+				10E875381F9F236D00BDAE4E /* dModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		10E875281F9F210F00BDAE4E /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		10E875331F9F229E00BDAE4E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				10E875341F9F229E00BDAE4E /* NetworkTool.h */,
+				10E875351F9F229E00BDAE4E /* NetworkTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		48BA39AC0BA651EAEFCAD257 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +153,11 @@
 				BEC673331F9CB848003B4959 /* ZYMainVC.h */,
 				BEC673341F9CB848003B4959 /* ZYMainVC.m */,
 				BEC673321F9C4830003B4959 /* PrefixHeader.pch */,
-				BEC673301F9C42EA003B4959 /* Tool */,
+				10E875331F9F229E00BDAE4E /* Tools */,
 				BEC673241F9C4239003B4959 /* GitPack */,
 				BEC6730B1F9C3C61003B4959 /* Main.storyboard */,
-				BEC6731D1F9C3F7B003B4959 /* my */,
 				BEC673191F9C3F67003B4959 /* Diary */,
+				BEC6731D1F9C3F7B003B4959 /* my */,
 				BEC6730E1F9C3C61003B4959 /* Assets.xcassets */,
 				BEC673101F9C3C61003B4959 /* LaunchScreen.storyboard */,
 				BEC673131F9C3C61003B4959 /* Info.plist */,
@@ -124,6 +177,8 @@
 		BEC673191F9C3F67003B4959 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
+				10E875271F9F210F00BDAE4E /* model */,
+				10E875281F9F210F00BDAE4E /* view */,
 				BEC6731A1F9C3F67003B4959 /* controller */,
 			);
 			path = Diary;
@@ -142,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				BEC6731E1F9C3F7B003B4959 /* controller */,
+				10E875251F9F20FC00BDAE4E /* view */,
+				10E875261F9F20FC00BDAE4E /* model */,
 			);
 			path = my;
 			sourceTree = "<group>";
@@ -182,13 +239,6 @@
 				BEC6732D1F9C426F003B4959 /* LLTabBarItem.m */,
 			);
 			path = LLTabBar;
-			sourceTree = "<group>";
-		};
-		BEC673301F9C42EA003B4959 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tool;
 			sourceTree = "<group>";
 		};
 		DB0769D824933BB5EC3E6FE1 /* Frameworks */ = {
@@ -233,6 +283,7 @@
 				TargetAttributes = {
 					BEC672FE1F9C3C61003B4959 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 7X68WV2D5Z;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC673121F9C3C61003B4959 /* LaunchScreen.storyboard in Resources */,
+				10E875321F9F219400BDAE4E /* MyCell.xib in Resources */,
 				BEC6730F1F9C3C61003B4959 /* Assets.xcassets in Resources */,
 				BEC6730D1F9C3C61003B4959 /* Main.storyboard in Resources */,
 			);
@@ -290,9 +342,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Diary/Pods-Diary-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -305,13 +360,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diary-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -321,12 +379,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E875391F9F236D00BDAE4E /* dModel.m in Sources */,
 				BEC6730A1F9C3C61003B4959 /* ViewController.m in Sources */,
 				BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */,
 				BEC673381F9CB882003B4959 /* MyVC.m in Sources */,
+				10E875311F9F219400BDAE4E /* MyCell.m in Sources */,
 				BEC673281F9C4259003B4959 /* CJNavigationController.m in Sources */,
 				BEC673231F9C3F90003B4959 /* DiaryVC.m in Sources */,
 				BEC673041F9C3C61003B4959 /* main.m in Sources */,
+				10E875361F9F229E00BDAE4E /* NetworkTool.m in Sources */,
 				BEC6732E1F9C426F003B4959 /* LLTabBar.m in Sources */,
 				BEC673351F9CB848003B4959 /* ZYMainVC.m in Sources */,
 				BEC6732F1F9C426F003B4959 /* LLTabBarItem.m in Sources */,
@@ -450,6 +511,7 @@
 			baseConfigurationReference = 906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X68WV2D5Z;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Diary/PrefixHeader.pch";
 				INFOPLIST_FILE = Diary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -463,6 +525,7 @@
 			baseConfigurationReference = 802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7X68WV2D5Z;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Diary/PrefixHeader.pch";
 				INFOPLIST_FILE = Diary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
