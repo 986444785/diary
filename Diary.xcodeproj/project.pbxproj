@@ -125,8 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				BEC6731A1F9C3F67003B4959 /* controller */,
-				BEC6731B1F9C3F67003B4959 /* model */,
-				BEC6731C1F9C3F67003B4959 /* view */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -140,26 +138,10 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
-		BEC6731B1F9C3F67003B4959 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		BEC6731C1F9C3F67003B4959 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		BEC6731D1F9C3F7B003B4959 /* my */ = {
 			isa = PBXGroup;
 			children = (
 				BEC6731E1F9C3F7B003B4959 /* controller */,
-				BEC6731F1F9C3F7B003B4959 /* model */,
-				BEC673201F9C3F7B003B4959 /* view */,
 			);
 			path = my;
 			sourceTree = "<group>";
@@ -171,20 +153,6 @@
 				BEC673371F9CB882003B4959 /* MyVC.m */,
 			);
 			path = controller;
-			sourceTree = "<group>";
-		};
-		BEC6731F1F9C3F7B003B4959 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		BEC673201F9C3F7B003B4959 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
 			sourceTree = "<group>";
 		};
 		BEC673241F9C4239003B4959 /* GitPack */ = {
