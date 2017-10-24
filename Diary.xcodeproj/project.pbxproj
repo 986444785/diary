@@ -177,9 +177,9 @@
 		BEC673191F9C3F67003B4959 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
+				BEC6731A1F9C3F67003B4959 /* controller */,
 				10E875271F9F210F00BDAE4E /* model */,
 				10E875281F9F210F00BDAE4E /* view */,
-				BEC6731A1F9C3F67003B4959 /* controller */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
