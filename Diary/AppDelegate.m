@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ZYMainVC.h"
+#import "IQKeyboardManager.h"
 @interface AppDelegate ()
 
 @end
@@ -35,8 +36,9 @@
      http://www.cnblogs.com/TTyb/p/6037548.html
      */
     
+    // 解决弹起键盘遮盖输入框的问题
+    [IQKeyboardManager sharedManager].enable = YES;
     
-       
     [ZYMainVC MainViewControllerWithDelegate:self];
     
     return YES;

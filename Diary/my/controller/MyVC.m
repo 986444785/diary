@@ -8,7 +8,8 @@
 
 #import "MyVC.h"
 #import "MyCell.h"
-
+#import "IPViewController.h"
+#import "WriteVC.h"
 @interface MyVC ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong) UITableView * tableview;
 @property(nonatomic,strong) NSArray * lists;
@@ -51,4 +52,26 @@
     
     return cell;
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    if (indexPath.row == 1) {
+        
+        IPViewController * ipvc = [[IPViewController alloc]init];
+        ipvc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:ipvc animated:YES];
+        
+    }else if (indexPath.row == 0){
+        
+        //写日记
+        WriteVC * writevc = [[WriteVC alloc]init];
+        writevc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:writevc animated:YES];
+        
+    } 
+}
+
+
+
+
 @end

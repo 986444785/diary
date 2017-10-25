@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,12 +47,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3BE8AC3FDEF9ED5D4C6AC14A00D0119D</key>
+		<key>3B6A3AE31CE24CB78FC33F46EB749864</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>74531EE6F51A7AECAEFD13F86D95C49C</key>
+		<key>904F4F27FD314010A3812EB2A9306183</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B416D2CB5F80BF5FA12CB6111FB81AEC</key>
+		<key>ABB3D8013A81AEE00000F34FDEF5A346</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDB6BED20A88C2B24083CE9296E8FEF1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

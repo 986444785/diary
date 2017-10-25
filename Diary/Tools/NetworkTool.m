@@ -26,9 +26,14 @@
     
     return tool;
 }
-
+  
   
 -(void)zyRequestWithURL:(NSString *)urlStr   method: (NSString *)method  parameters:(id)parameters  success:(void (^)(id response))success failure:(void(^)(NSString *errorStr))failure{
+    
+    NSString * ipStr = [ZYUserManager shareManager].ip;
+    urlStr =  [NSString stringWithFormat:@"%@%@",ipStr,urlStr];
+    
+    NSLog(@"urlStr %@",urlStr);
     
        if([method isEqualToString:@"GET"]) {
            [self GET:urlStr parameters:parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {

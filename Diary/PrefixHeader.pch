@@ -19,5 +19,8 @@
 #import "Masonry.h" 
 #import "NetworkTool.h"
 #import "YYModel.h"
+#import "Masonry.h"
+#import "ZYUserManager.h"
 
 
+ 

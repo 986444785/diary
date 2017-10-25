@@ -11,6 +11,14 @@
 		10E875321F9F219400BDAE4E /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E875301F9F219400BDAE4E /* MyCell.xib */; };
 		10E875361F9F229E00BDAE4E /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E875351F9F229E00BDAE4E /* NetworkTool.m */; };
 		10E875391F9F236D00BDAE4E /* dModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E875381F9F236D00BDAE4E /* dModel.m */; };
+		10E8753C1F9F26D900BDAE4E /* ZyDiaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8753B1F9F26D900BDAE4E /* ZyDiaryCell.m */; };
+		10E8753F1F9F2C2800BDAE4E /* ZYUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8753E1F9F2C2800BDAE4E /* ZYUserManager.m */; };
+		10E875431F9F2F1F00BDAE4E /* IPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E875411F9F2F1F00BDAE4E /* IPViewController.m */; };
+		10E875441F9F2F1F00BDAE4E /* IPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E875421F9F2F1F00BDAE4E /* IPViewController.xib */; };
+		10E875471F9F385600BDAE4E /* WriteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E875461F9F385600BDAE4E /* WriteVC.m */; };
+		10E875501F9F3D2800BDAE4E /* UIBarButtonItem+CH.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8754B1F9F3D2800BDAE4E /* UIBarButtonItem+CH.m */; };
+		10E875511F9F3D2800BDAE4E /* UIImage+CH.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8754D1F9F3D2800BDAE4E /* UIImage+CH.m */; };
+		10E875521F9F3D2800BDAE4E /* UIView+GFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8754F1F9F3D2800BDAE4E /* UIView+GFFrame.m */; };
 		7B44D1FE8536831BC4B3E8B3 /* libPods-Diary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301E254A167DB6A4CF998C10 /* libPods-Diary.a */; };
 		BEC673041F9C3C61003B4959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673031F9C3C61003B4959 /* main.m */; };
 		BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673061F9C3C61003B4959 /* AppDelegate.m */; };
@@ -34,6 +42,21 @@
 		10E875351F9F229E00BDAE4E /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
 		10E875371F9F236D00BDAE4E /* dModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dModel.h; sourceTree = "<group>"; };
 		10E875381F9F236D00BDAE4E /* dModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dModel.m; sourceTree = "<group>"; };
+		10E8753A1F9F26D900BDAE4E /* ZyDiaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZyDiaryCell.h; sourceTree = "<group>"; };
+		10E8753B1F9F26D900BDAE4E /* ZyDiaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZyDiaryCell.m; sourceTree = "<group>"; };
+		10E8753D1F9F2C2800BDAE4E /* ZYUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUserManager.h; sourceTree = "<group>"; };
+		10E8753E1F9F2C2800BDAE4E /* ZYUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYUserManager.m; sourceTree = "<group>"; };
+		10E875401F9F2F1F00BDAE4E /* IPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPViewController.h; sourceTree = "<group>"; };
+		10E875411F9F2F1F00BDAE4E /* IPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPViewController.m; sourceTree = "<group>"; };
+		10E875421F9F2F1F00BDAE4E /* IPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IPViewController.xib; sourceTree = "<group>"; };
+		10E875451F9F385600BDAE4E /* WriteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteVC.h; sourceTree = "<group>"; };
+		10E875461F9F385600BDAE4E /* WriteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteVC.m; sourceTree = "<group>"; };
+		10E8754A1F9F3D2800BDAE4E /* UIBarButtonItem+CH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CH.h"; sourceTree = "<group>"; };
+		10E8754B1F9F3D2800BDAE4E /* UIBarButtonItem+CH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CH.m"; sourceTree = "<group>"; };
+		10E8754C1F9F3D2800BDAE4E /* UIImage+CH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CH.h"; sourceTree = "<group>"; };
+		10E8754D1F9F3D2800BDAE4E /* UIImage+CH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CH.m"; sourceTree = "<group>"; };
+		10E8754E1F9F3D2800BDAE4E /* UIView+GFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GFFrame.h"; sourceTree = "<group>"; };
+		10E8754F1F9F3D2800BDAE4E /* UIView+GFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GFFrame.m"; sourceTree = "<group>"; };
 		301E254A167DB6A4CF998C10 /* libPods-Diary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Diary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diary/Pods-Diary.release.xcconfig"; sourceTree = "<group>"; };
 		906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diary/Pods-Diary.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +126,8 @@
 		10E875281F9F210F00BDAE4E /* view */ = {
 			isa = PBXGroup;
 			children = (
+				10E8753A1F9F26D900BDAE4E /* ZyDiaryCell.h */,
+				10E8753B1F9F26D900BDAE4E /* ZyDiaryCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -112,8 +137,31 @@
 			children = (
 				10E875341F9F229E00BDAE4E /* NetworkTool.h */,
 				10E875351F9F229E00BDAE4E /* NetworkTool.m */,
+				10E8753D1F9F2C2800BDAE4E /* ZYUserManager.h */,
+				10E8753E1F9F2C2800BDAE4E /* ZYUserManager.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		10E875481F9F3D1B00BDAE4E /* customTool */ = {
+			isa = PBXGroup;
+			children = (
+				10E875491F9F3D2800BDAE4E /* ZYBarItem */,
+			);
+			path = customTool;
+			sourceTree = "<group>";
+		};
+		10E875491F9F3D2800BDAE4E /* ZYBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				10E8754A1F9F3D2800BDAE4E /* UIBarButtonItem+CH.h */,
+				10E8754B1F9F3D2800BDAE4E /* UIBarButtonItem+CH.m */,
+				10E8754C1F9F3D2800BDAE4E /* UIImage+CH.h */,
+				10E8754D1F9F3D2800BDAE4E /* UIImage+CH.m */,
+				10E8754E1F9F3D2800BDAE4E /* UIView+GFFrame.h */,
+				10E8754F1F9F3D2800BDAE4E /* UIView+GFFrame.m */,
+			);
+			path = ZYBarItem;
 			sourceTree = "<group>";
 		};
 		48BA39AC0BA651EAEFCAD257 /* Pods */ = {
@@ -153,11 +201,12 @@
 				BEC673331F9CB848003B4959 /* ZYMainVC.h */,
 				BEC673341F9CB848003B4959 /* ZYMainVC.m */,
 				BEC673321F9C4830003B4959 /* PrefixHeader.pch */,
+				10E875481F9F3D1B00BDAE4E /* customTool */,
+				BEC673191F9C3F67003B4959 /* Diary */,
+				BEC6731D1F9C3F7B003B4959 /* my */,
 				10E875331F9F229E00BDAE4E /* Tools */,
 				BEC673241F9C4239003B4959 /* GitPack */,
 				BEC6730B1F9C3C61003B4959 /* Main.storyboard */,
-				BEC673191F9C3F67003B4959 /* Diary */,
-				BEC6731D1F9C3F7B003B4959 /* my */,
 				BEC6730E1F9C3C61003B4959 /* Assets.xcassets */,
 				BEC673101F9C3C61003B4959 /* LaunchScreen.storyboard */,
 				BEC673131F9C3C61003B4959 /* Info.plist */,
@@ -177,9 +226,9 @@
 		BEC673191F9C3F67003B4959 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
+				BEC6731A1F9C3F67003B4959 /* controller */,
 				10E875271F9F210F00BDAE4E /* model */,
 				10E875281F9F210F00BDAE4E /* view */,
-				BEC6731A1F9C3F67003B4959 /* controller */,
 			);
 			path = Diary;
 			sourceTree = "<group>";
@@ -189,6 +238,8 @@
 			children = (
 				BEC673211F9C3F90003B4959 /* DiaryVC.h */,
 				BEC673221F9C3F90003B4959 /* DiaryVC.m */,
+				10E875451F9F385600BDAE4E /* WriteVC.h */,
+				10E875461F9F385600BDAE4E /* WriteVC.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -208,6 +259,9 @@
 			children = (
 				BEC673361F9CB882003B4959 /* MyVC.h */,
 				BEC673371F9CB882003B4959 /* MyVC.m */,
+				10E875401F9F2F1F00BDAE4E /* IPViewController.h */,
+				10E875411F9F2F1F00BDAE4E /* IPViewController.m */,
+				10E875421F9F2F1F00BDAE4E /* IPViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -314,6 +368,7 @@
 				BEC673121F9C3C61003B4959 /* LaunchScreen.storyboard in Resources */,
 				10E875321F9F219400BDAE4E /* MyCell.xib in Resources */,
 				BEC6730F1F9C3C61003B4959 /* Assets.xcassets in Resources */,
+				10E875441F9F2F1F00BDAE4E /* IPViewController.xib in Resources */,
 				BEC6730D1F9C3C61003B4959 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +398,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Diary/Pods-Diary-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -380,17 +436,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				10E875391F9F236D00BDAE4E /* dModel.m in Sources */,
+				10E875501F9F3D2800BDAE4E /* UIBarButtonItem+CH.m in Sources */,
 				BEC6730A1F9C3C61003B4959 /* ViewController.m in Sources */,
 				BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */,
+				10E8753F1F9F2C2800BDAE4E /* ZYUserManager.m in Sources */,
 				BEC673381F9CB882003B4959 /* MyVC.m in Sources */,
 				10E875311F9F219400BDAE4E /* MyCell.m in Sources */,
 				BEC673281F9C4259003B4959 /* CJNavigationController.m in Sources */,
 				BEC673231F9C3F90003B4959 /* DiaryVC.m in Sources */,
+				10E875471F9F385600BDAE4E /* WriteVC.m in Sources */,
+				10E875431F9F2F1F00BDAE4E /* IPViewController.m in Sources */,
 				BEC673041F9C3C61003B4959 /* main.m in Sources */,
 				10E875361F9F229E00BDAE4E /* NetworkTool.m in Sources */,
 				BEC6732E1F9C426F003B4959 /* LLTabBar.m in Sources */,
+				10E875511F9F3D2800BDAE4E /* UIImage+CH.m in Sources */,
 				BEC673351F9CB848003B4959 /* ZYMainVC.m in Sources */,
 				BEC6732F1F9C426F003B4959 /* LLTabBarItem.m in Sources */,
+				10E8753C1F9F26D900BDAE4E /* ZyDiaryCell.m in Sources */,
+				10E875521F9F3D2800BDAE4E /* UIView+GFFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

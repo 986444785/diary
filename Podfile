@@ -12,6 +12,6 @@ pod ‘AFNetworking’
 pod ‘SDWebImage’
 pod ‘MJRefresh’
 pod ‘YYModel’
-
+pod 'IQKeyboardManager'
 
 end
