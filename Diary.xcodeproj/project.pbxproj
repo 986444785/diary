@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100991411FA18D93004B7F31 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 100991401FA18D93004B7F31 /* HomePageVC.m */; };
+		100991481FA1B7D3004B7F31 /* DiaryDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 100991471FA1B7D3004B7F31 /* DiaryDetailVC.m */; };
+		1009917E1FA1D2C4004B7F31 /* GSKSpotyLikeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 100991761FA1D2C4004B7F31 /* GSKSpotyLikeHeaderView.m */; };
+		1009917F1FA1D2C4004B7F31 /* GSKStretchyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 100991791FA1D2C4004B7F31 /* GSKStretchyHeaderView.m */; };
+		100991801FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1009917B1FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.m */; };
+		100991811FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 1009917D1FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.m */; };
+		1009918F1FA1D38A004B7F31 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 1009918E1FA1D38A004B7F31 /* UIImage+ImageEffects.m */; };
+		100991911FA1D557004B7F31 /* myFriends.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 100991901FA1D557004B7F31 /* myFriends.JPG */; };
+		100991931FA1D5C2004B7F31 /* myhead.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 100991921FA1D5C2004B7F31 /* myhead.JPG */; };
+		100991951FA1DC3D004B7F31 /* landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 100991941FA1DC3D004B7F31 /* landscape.jpg */; };
+		100991971FA1DC4D004B7F31 /* landscape_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 100991961FA1DC4D004B7F31 /* landscape_blur.jpg */; };
 		10E875311F9F219400BDAE4E /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8752F1F9F219400BDAE4E /* MyCell.m */; };
 		10E875321F9F219400BDAE4E /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E875301F9F219400BDAE4E /* MyCell.xib */; };
 		10E875361F9F229E00BDAE4E /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E875351F9F229E00BDAE4E /* NetworkTool.m */; };
@@ -35,6 +46,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1009913F1FA18D93004B7F31 /* HomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
+		100991401FA18D93004B7F31 /* HomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
+		100991461FA1B7D3004B7F31 /* DiaryDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiaryDetailVC.h; sourceTree = "<group>"; };
+		100991471FA1B7D3004B7F31 /* DiaryDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiaryDetailVC.m; sourceTree = "<group>"; };
+		100991751FA1D2C4004B7F31 /* GSKSpotyLikeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSKSpotyLikeHeaderView.h; sourceTree = "<group>"; };
+		100991761FA1D2C4004B7F31 /* GSKSpotyLikeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSKSpotyLikeHeaderView.m; sourceTree = "<group>"; };
+		100991771FA1D2C4004B7F31 /* GSKStretchyHeaderView+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GSKStretchyHeaderView+Protected.h"; sourceTree = "<group>"; };
+		100991781FA1D2C4004B7F31 /* GSKStretchyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSKStretchyHeaderView.h; sourceTree = "<group>"; };
+		100991791FA1D2C4004B7F31 /* GSKStretchyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSKStretchyHeaderView.m; sourceTree = "<group>"; };
+		1009917A1FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GSKStretchyHeaderView.h"; sourceTree = "<group>"; };
+		1009917B1FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GSKStretchyHeaderView.m"; sourceTree = "<group>"; };
+		1009917C1FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GSKTransplantSubviews.h"; sourceTree = "<group>"; };
+		1009917D1FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GSKTransplantSubviews.m"; sourceTree = "<group>"; };
+		1009918D1FA1D38A004B7F31 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		1009918E1FA1D38A004B7F31 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		100991901FA1D557004B7F31 /* myFriends.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myFriends.JPG; sourceTree = "<group>"; };
+		100991921FA1D5C2004B7F31 /* myhead.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myhead.JPG; sourceTree = "<group>"; };
+		100991941FA1DC3D004B7F31 /* landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landscape.jpg; sourceTree = "<group>"; };
+		100991961FA1DC4D004B7F31 /* landscape_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landscape_blur.jpg; sourceTree = "<group>"; };
 		10E8752E1F9F219400BDAE4E /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		10E8752F1F9F219400BDAE4E /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		10E875301F9F219400BDAE4E /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
@@ -97,6 +127,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1009913B1FA18D72004B7F31 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				1009913C1FA18D72004B7F31 /* controller */,
+				1009913D1FA18D72004B7F31 /* model */,
+				1009913E1FA18D72004B7F31 /* view */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		1009913C1FA18D72004B7F31 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1009913F1FA18D93004B7F31 /* HomePageVC.h */,
+				100991401FA18D93004B7F31 /* HomePageVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1009913D1FA18D72004B7F31 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1009913E1FA18D72004B7F31 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		100991421FA1B799004B7F31 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				100991451FA1B7B5004B7F31 /* controller */,
+				100991431FA1B7B5004B7F31 /* model */,
+				100991441FA1B7B5004B7F31 /* view */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		100991431FA1B7B5004B7F31 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		100991441FA1B7B5004B7F31 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		100991451FA1B7B5004B7F31 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				100991461FA1B7D3004B7F31 /* DiaryDetailVC.h */,
+				100991471FA1B7D3004B7F31 /* DiaryDetailVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		100991741FA1D2C4004B7F31 /* SCHeadView */ = {
+			isa = PBXGroup;
+			children = (
+				1009918C1FA1D38A004B7F31 /* UIImage+ImageEffects */,
+				100991751FA1D2C4004B7F31 /* GSKSpotyLikeHeaderView.h */,
+				100991761FA1D2C4004B7F31 /* GSKSpotyLikeHeaderView.m */,
+				100991771FA1D2C4004B7F31 /* GSKStretchyHeaderView+Protected.h */,
+				100991781FA1D2C4004B7F31 /* GSKStretchyHeaderView.h */,
+				100991791FA1D2C4004B7F31 /* GSKStretchyHeaderView.m */,
+				1009917A1FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.h */,
+				1009917B1FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.m */,
+				1009917C1FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.h */,
+				1009917D1FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.m */,
+				100991941FA1DC3D004B7F31 /* landscape.jpg */,
+				100991961FA1DC4D004B7F31 /* landscape_blur.jpg */,
+				100991921FA1D5C2004B7F31 /* myhead.JPG */,
+				100991901FA1D557004B7F31 /* myFriends.JPG */,
+			);
+			path = SCHeadView;
+			sourceTree = "<group>";
+		};
+		1009918C1FA1D38A004B7F31 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				1009918D1FA1D38A004B7F31 /* UIImage+ImageEffects.h */,
+				1009918E1FA1D38A004B7F31 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
 		10E875251F9F20FC00BDAE4E /* view */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +327,7 @@
 				BEC673331F9CB848003B4959 /* ZYMainVC.h */,
 				BEC673341F9CB848003B4959 /* ZYMainVC.m */,
 				BEC673321F9C4830003B4959 /* PrefixHeader.pch */,
+				1009913B1FA18D72004B7F31 /* homePage */,
 				10E875481F9F3D1B00BDAE4E /* customTool */,
 				BEC673191F9C3F67003B4959 /* Diary */,
 				BEC6731D1F9C3F7B003B4959 /* my */,
@@ -226,6 +353,7 @@
 		BEC673191F9C3F67003B4959 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
+				100991421FA1B799004B7F31 /* detail */,
 				BEC6731A1F9C3F67003B4959 /* controller */,
 				10E875271F9F210F00BDAE4E /* model */,
 				10E875281F9F210F00BDAE4E /* view */,
@@ -269,6 +397,7 @@
 		BEC673241F9C4239003B4959 /* GitPack */ = {
 			isa = PBXGroup;
 			children = (
+				100991741FA1D2C4004B7F31 /* SCHeadView */,
 				BEC673291F9C426F003B4959 /* LLTabBar */,
 				BEC673251F9C4259003B4959 /* CJNavigationController */,
 			);
@@ -366,10 +495,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC673121F9C3C61003B4959 /* LaunchScreen.storyboard in Resources */,
+				100991931FA1D5C2004B7F31 /* myhead.JPG in Resources */,
+				100991911FA1D557004B7F31 /* myFriends.JPG in Resources */,
+				100991971FA1DC4D004B7F31 /* landscape_blur.jpg in Resources */,
 				10E875321F9F219400BDAE4E /* MyCell.xib in Resources */,
 				BEC6730F1F9C3C61003B4959 /* Assets.xcassets in Resources */,
 				10E875441F9F2F1F00BDAE4E /* IPViewController.xib in Resources */,
 				BEC6730D1F9C3C61003B4959 /* Main.storyboard in Resources */,
+				100991951FA1DC3D004B7F31 /* landscape.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,18 +570,25 @@
 			files = (
 				10E875391F9F236D00BDAE4E /* dModel.m in Sources */,
 				10E875501F9F3D2800BDAE4E /* UIBarButtonItem+CH.m in Sources */,
+				100991411FA18D93004B7F31 /* HomePageVC.m in Sources */,
 				BEC6730A1F9C3C61003B4959 /* ViewController.m in Sources */,
 				BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */,
 				10E8753F1F9F2C2800BDAE4E /* ZYUserManager.m in Sources */,
 				BEC673381F9CB882003B4959 /* MyVC.m in Sources */,
 				10E875311F9F219400BDAE4E /* MyCell.m in Sources */,
 				BEC673281F9C4259003B4959 /* CJNavigationController.m in Sources */,
+				100991801FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.m in Sources */,
 				BEC673231F9C3F90003B4959 /* DiaryVC.m in Sources */,
 				10E875471F9F385600BDAE4E /* WriteVC.m in Sources */,
+				100991481FA1B7D3004B7F31 /* DiaryDetailVC.m in Sources */,
+				1009918F1FA1D38A004B7F31 /* UIImage+ImageEffects.m in Sources */,
 				10E875431F9F2F1F00BDAE4E /* IPViewController.m in Sources */,
+				1009917F1FA1D2C4004B7F31 /* GSKStretchyHeaderView.m in Sources */,
 				BEC673041F9C3C61003B4959 /* main.m in Sources */,
+				1009917E1FA1D2C4004B7F31 /* GSKSpotyLikeHeaderView.m in Sources */,
 				10E875361F9F229E00BDAE4E /* NetworkTool.m in Sources */,
 				BEC6732E1F9C426F003B4959 /* LLTabBar.m in Sources */,
+				100991811FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.m in Sources */,
 				10E875511F9F3D2800BDAE4E /* UIImage+CH.m in Sources */,
 				BEC673351F9CB848003B4959 /* ZYMainVC.m in Sources */,
 				BEC6732F1F9C426F003B4959 /* LLTabBarItem.m in Sources */,

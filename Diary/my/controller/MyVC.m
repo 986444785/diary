@@ -22,11 +22,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = SUBJECT_BGCOLOR;
     _lists = @[@"设置",@"IP",@"其他"];
     
     [self buildTableview];
-     
+      
 }
 
 -(void)buildTableview{
@@ -35,6 +35,8 @@
     _tableview.dataSource = self;
     [self.view addSubview:_tableview];
     //高度自适应
+    _tableview.backgroundColor = SUBJECT_BGCOLOR;
+    _tableview.tableFooterView = [[UIView alloc]init];
     _tableview.estimatedRowHeight = 140;
     _tableview.rowHeight = UITableViewAutomaticDimension;
     [_tableview registerNib:[UINib nibWithNibName:@"MyCell" bundle:nil] forCellReuseIdentifier:@"MyCell"];
@@ -52,7 +54,7 @@
     
     return cell;
 }
-
+  
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     if (indexPath.row == 1) {

@@ -29,8 +29,8 @@
      4.git push origin master 提交到远程仓库
      */
     
-    
-    /* 
+     
+    /*
      git下载自己项目到本地
      假如外出工作，需要在另一台电脑上面pull自己的某个git远程项目到本地
      http://www.cnblogs.com/TTyb/p/6037548.html

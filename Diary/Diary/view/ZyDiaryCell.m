@@ -17,7 +17,7 @@
 @property(nonatomic) UILabel * likesLabel;
 
 
-@end 
+@end  
 
 @implementation ZyDiaryCell
 
@@ -36,28 +36,46 @@
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.contentView.backgroundColor = [UIColor purpleColor];
+        self.contentView.backgroundColor = [UIColor whiteColor];
+        
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
         [self configUI];
     }
     return self;
 }
 -(void)configUI{
     
+      
+    UIView * backGroundView = [UIView new];
+    [self.contentView addSubview:backGroundView];
+    [backGroundView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.contentView.mas_left).offset(10);
+        make.top.equalTo(self.contentView.mas_top).offset(5);
+        make.right.equalTo(self.contentView.mas_right).offset(-10);
+        make.bottom.equalTo(self.contentView.mas_bottom).offset(-5);
+    }];
+    backGroundView.backgroundColor = [UIColor grayColor];
+    
+    backGroundView.layer.masksToBounds = YES;
+    backGroundView.layer.cornerRadius = 5;
+    
+    
+    
     _avatorIamgeView = [UIImageView new];
-    [self.contentView addSubview:_avatorIamgeView];
+    [backGroundView addSubview:_avatorIamgeView];
     [_avatorIamgeView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.contentView.mas_left).offset(15);
-        make.top.equalTo(self.contentView.mas_top).offset(15);
+        make.left.equalTo(backGroundView.mas_left).offset(15);
+        make.top.equalTo(backGroundView.mas_top).offset(15);
         make.width.height.equalTo(@25);
     }];
     _avatorIamgeView.backgroundColor = [UIColor redColor];
     
 
     _nameLabel  =[UILabel new];
-    [self.contentView addSubview:_nameLabel];
+    [backGroundView addSubview:_nameLabel];
     [_nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(_avatorIamgeView.mas_right).offset(8);
-        make.right.equalTo(self.contentView.mas_right).offset(-15);
+        make.right.equalTo(backGroundView.mas_right).offset(-15);
         make.centerY.equalTo(_avatorIamgeView.mas_centerY);
     }];
     _nameLabel.textColor = [UIColor whiteColor];
@@ -66,37 +84,37 @@
     
     
     UILabel * lineLabel  =[UILabel new];
-    [self.contentView addSubview:lineLabel];
+    [backGroundView addSubview:lineLabel];
     [lineLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.contentView.mas_left).offset(15);
-        make.right.equalTo(self.contentView.mas_right).offset(-15);
-        make.height.equalTo(@1);
+        make.left.equalTo(backGroundView.mas_left).offset(15);
+        make.right.equalTo(backGroundView.mas_right).offset(-15);
+        make.height.equalTo(@0.5);
         make.top.equalTo(_avatorIamgeView.mas_bottom).offset(15);
     }];
     lineLabel.backgroundColor = [UIColor whiteColor];
 
     _diaryLabel  =[UILabel new];
-    [self.contentView addSubview:_diaryLabel];
+    [backGroundView addSubview:_diaryLabel];
     [_diaryLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.contentView.mas_left).offset(15);
-        make.right.equalTo(self.contentView.mas_right).offset(-15);
+        make.left.equalTo(backGroundView.mas_left).offset(15);
+        make.right.equalTo(backGroundView.mas_right).offset(-15);
     
         make.top.equalTo(lineLabel.mas_bottom).offset(15);
     }];
     _diaryLabel.textColor = [UIColor whiteColor];
-    _diaryLabel.numberOfLines = 0;
+    _diaryLabel.numberOfLines = 4;
     _diaryLabel.text = @"内容...";
     
-     
+    
     
     _timeLabel  =[UILabel new];
-    [self.contentView addSubview:_timeLabel];
+    [backGroundView addSubview:_timeLabel];
     [_timeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.contentView.mas_left).offset(15);
-        make.right.equalTo(self.contentView.mas_right).offset(-15);
+        make.left.equalTo(backGroundView.mas_left).offset(15);
+        make.right.equalTo(backGroundView.mas_right).offset(-15);
         
         make.top.equalTo(_diaryLabel.mas_bottom).offset(15);
-        make.bottom.equalTo(self.contentView.mas_bottom).offset(-15);
+        make.bottom.equalTo(backGroundView.mas_bottom).offset(-15);
     }];
     _timeLabel.textColor = [UIColor whiteColor];
     _timeLabel.text = @"2017-10-25";

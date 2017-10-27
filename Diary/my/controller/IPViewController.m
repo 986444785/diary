@@ -12,7 +12,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *tx;
 
 @end
-
+    
 @implementation IPViewController
 
 - (void)viewDidLoad {
@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view from its nib.
     
     ZYUserManager * manager = [ZYUserManager shareManager];
-    _tx.placeholder = manager.ip;
+    _tx.text = manager.ip;
 }
 
 - (IBAction)changeIP:(id)sender {
@@ -32,6 +32,8 @@
     
     ZYUserManager * manager = [ZYUserManager shareManager];
     [manager saveIP:_tx.text];
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 

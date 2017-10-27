@@ -9,6 +9,7 @@
 #import "ZYMainVC.h"
 #import "AppDelegate.h"
 #import "LLTabBar.h"
+#import "HomePageVC.h"
 #import "CJNavigationController.h"
 #import "DiaryVC.h"
 #import "MyVC.h"
@@ -26,27 +27,28 @@
 
 +(void)MainViewControllerWithDelegate:(id)delegate{
     
-    DiaryVC * diaryvc = [[DiaryVC alloc]init];
+    HomePageVC * homevc    = [[HomePageVC alloc]init];
+    DiaryVC    * diaryvc   = [[DiaryVC alloc]init];
+    MyVC       * myvc      = [[MyVC alloc]init];
+    MyVC       * myvc3     = [[MyVC alloc]init];
     
-    MyVC * myvc = [[MyVC alloc]init];
     
-        MyVC * myvc3 = [[MyVC alloc]init];
-    
-     CJNavigationController * nav1 = [[CJNavigationController alloc]initWithRootViewController:diaryvc];
-     CJNavigationController * nav2 = [[CJNavigationController alloc]initWithRootViewController:myvc];
-       CJNavigationController * nav3 = [[CJNavigationController alloc]initWithRootViewController:myvc3];
+    CJNavigationController * nav0 = [[CJNavigationController alloc]initWithRootViewController:homevc];
+    CJNavigationController * nav1 = [[CJNavigationController alloc]initWithRootViewController:diaryvc];
+    CJNavigationController * nav2 = [[CJNavigationController alloc]initWithRootViewController:myvc];
+    CJNavigationController * nav3 = [[CJNavigationController alloc]initWithRootViewController:myvc3];
     
     UITabBarController * tabBarController = [[UITabBarController alloc]init];
-    tabBarController.viewControllers = @[nav1,nav2,nav3];
+    tabBarController.viewControllers = @[nav0,nav1,nav2,nav3];
 
     [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
     
     
     LLTabBar *tabBar = [[LLTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
-    tabBar.tabBarItemAttributes = @[@{kLLTabBarItemAttributeTitle : @"日记", kLLTabBarItemAttributeNormalImageName : @"bar_home", kLLTabBarItemAttributeSelectedImageName : @"bar_home_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
-                                    @{kLLTabBarItemAttributeTitle : @"分类", kLLTabBarItemAttributeNormalImageName : @"bar_type", kLLTabBarItemAttributeSelectedImageName : @"bar_type_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
-                                    @{kLLTabBarItemAttributeTitle : @"我的", kLLTabBarItemAttributeNormalImageName : @"bar_myself", kLLTabBarItemAttributeSelectedImageName : @"bar_myself_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)}];
+    tabBar.tabBarItemAttributes = @[@{kLLTabBarItemAttributeTitle : @"首页", kLLTabBarItemAttributeNormalImageName : @"bar_home", kLLTabBarItemAttributeSelectedImageName : @"bar_home_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},@{kLLTabBarItemAttributeTitle : @"日记", kLLTabBarItemAttributeNormalImageName : @"bar_home", kLLTabBarItemAttributeSelectedImageName : @"bar_home_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
+        @{kLLTabBarItemAttributeTitle : @"分类", kLLTabBarItemAttributeNormalImageName : @"bar_type", kLLTabBarItemAttributeSelectedImageName : @"bar_type_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
+        @{kLLTabBarItemAttributeTitle : @"我的", kLLTabBarItemAttributeNormalImageName : @"bar_myself", kLLTabBarItemAttributeSelectedImageName : @"bar_myself_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)}];
     
        [tabBarController.tabBar addSubview:tabBar];
     
