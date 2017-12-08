@@ -17,11 +17,12 @@ static ZYUserManager * __userManager;
     @synchronized (self) {
         if (!__userManager) {
             __userManager = [[ZYUserManager alloc]init];
+            [__userManager getUserID];
             [__userManager getIP];
         }
     }  
     return __userManager;
-}
+} 
 
  //为了防止人为创建单例类，重写alloc方法
 +(id)alloc{
@@ -35,6 +36,27 @@ static ZYUserManager * __userManager;
     });
     return __userManager;
 }
+
+
+
+-(void)getUserID{
+  
+    _userID =  [[NSUserDefaults standardUserDefaults] objectForKey:@"USERID"];
+    
+     
+    _userID = @"2";
+}
+
+-(void)saveUserID:(NSString *)UserID{
+    
+    _userID = UserID;
+    
+    [[NSUserDefaults standardUserDefaults] setObject:UserID forKey:@"USERID"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    
+}
+
+
 
 
 -(void)getIP{

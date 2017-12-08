@@ -18,6 +18,51 @@
 		100991931FA1D5C2004B7F31 /* myhead.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 100991921FA1D5C2004B7F31 /* myhead.JPG */; };
 		100991951FA1DC3D004B7F31 /* landscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 100991941FA1DC3D004B7F31 /* landscape.jpg */; };
 		100991971FA1DC4D004B7F31 /* landscape_blur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 100991961FA1DC4D004B7F31 /* landscape_blur.jpg */; };
+		1009919A1FA2D2E5004B7F31 /* DContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 100991991FA2D2E5004B7F31 /* DContentCell.m */; };
+		1009919D1FA2D5ED004B7F31 /* ToolCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1009919C1FA2D5ED004B7F31 /* ToolCategory.m */; };
+		10208FF41FBC223B00FB6D26 /* EZSortMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10208FF31FBC223B00FB6D26 /* EZSortMenuView.m */; };
+		102956E61FCBB6A300810727 /* publicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 102956E51FCBB6A300810727 /* publicVC.m */; };
+		102FA12A1FC90E6F00E90B10 /* HPViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 102FA1291FC90E6F00E90B10 /* HPViewModel.m */; };
+		102FA12E1FC921B900E90B10 /* MyDiaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 102FA12D1FC921B900E90B10 /* MyDiaryCell.m */; };
+		1062A5FC1FC3D66A00D47E43 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1062A5F91FC3D66900D47E43 /* WRCustomNavigationBar.m */; };
+		1062A5FD1FC3D66A00D47E43 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1062A5FB1FC3D66900D47E43 /* WRNavigationBar.m */; };
+		1062A6011FC3FE9A00D47E43 /* SRActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1062A6001FC3FE9A00D47E43 /* SRActionSheet.m */; };
+		1062A6041FC407C800D47E43 /* MyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1062A6031FC407C800D47E43 /* MyViewModel.m */; };
+		106883FD1FC2B572003F361F /* commentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 106883FC1FC2B572003F361F /* commentVC.m */; };
+		106884011FC2B6EA003F361F /* TextViewTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 106883FF1FC2B6EA003F361F /* TextViewTools.m */; };
+		106B12A91FB92FCF00A8032A /* ZYTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 106B12A71FB92FCF00A8032A /* ZYTestView.m */; };
+		106B12AA1FB92FCF00A8032A /* ZYTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 106B12A81FB92FCF00A8032A /* ZYTestView.xib */; };
+		1076A6901FD51F7A006B6AF9 /* ZYZoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076A68F1FD51F7A006B6AF9 /* ZYZoneVC.m */; };
+		1076A6941FD521CB006B6AF9 /* JCCollectionViewWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076A6931FD521CB006B6AF9 /* JCCollectionViewWaterfallLayout.m */; };
+		1076A6981FD5228C006B6AF9 /* sampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076A6971FD5228C006B6AF9 /* sampleCell.m */; };
+		1076A69B1FD528A4006B6AF9 /* describeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076A69A1FD528A4006B6AF9 /* describeCell.m */; };
+		1076A6AD1FD54D61006B6AF9 /* ZYCustNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076A6AC1FD54D61006B6AF9 /* ZYCustNavView.m */; };
+		1076A6B01FD54F40006B6AF9 /* ZYZoneHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076A6AF1FD54F40006B6AF9 /* ZYZoneHeader.m */; };
+		1076A6B31FD55842006B6AF9 /* ZYTitleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076A6B21FD55842006B6AF9 /* ZYTitleHeaderView.m */; };
+		1076A6B91FD63127006B6AF9 /* ZYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1076A6B81FD63127006B6AF9 /* ZYTabBarController.m */; };
+		107A544F1FAB0E0F00255686 /* otherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 107A544E1FAB0E0F00255686 /* otherVC.m */; };
+		107A54521FAB0FDC00255686 /* ZYTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 107A54511FAB0FDC00255686 /* ZYTopView.m */; };
+		107CB7A61FDA378700F54470 /* SVNTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 107CB7A51FDA378700F54470 /* SVNTest.m */; };
+		108587091FAC5CEC00BC7047 /* ZYCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 108587081FAC5CEC00BC7047 /* ZYCacheManager.m */; };
+		109978A11FC2E5BB003E1641 /* ZYTabHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 109978A01FC2E5BB003E1641 /* ZYTabHeaderView.m */; };
+		10AFC6BD1FBAD96300A0170A /* MSSCalendarCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6AB1FBAD96300A0170A /* MSSCalendarCollectionReusableView.m */; };
+		10AFC6BE1FBAD96300A0170A /* MSSCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6AD1FBAD96300A0170A /* MSSCalendarCollectionViewCell.m */; };
+		10AFC6BF1FBAD96300A0170A /* MSSCalendarHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6B01FBAD96300A0170A /* MSSCalendarHeaderModel.m */; };
+		10AFC6C01FBAD96300A0170A /* MSSCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6B21FBAD96300A0170A /* MSSCalendarManager.m */; };
+		10AFC6C11FBAD96300A0170A /* MSSCalendarPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6B41FBAD96300A0170A /* MSSCalendarPopView.m */; };
+		10AFC6C21FBAD96300A0170A /* MSSCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6B61FBAD96300A0170A /* MSSCalendarViewController.m */; };
+		10AFC6C31FBAD96300A0170A /* MSSChineseCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6B81FBAD96300A0170A /* MSSChineseCalendarManager.m */; };
+		10AFC6C41FBAD96300A0170A /* MSSCircleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6BA1FBAD96300A0170A /* MSSCircleLabel.m */; };
+		10AFC6C51FBAD96300A0170A /* ZYCalendarTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6BC1FBAD96300A0170A /* ZYCalendarTopView.m */; };
+		10AFC6C91FBAEA0400A0170A /* ZYCalendInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6C81FBAEA0400A0170A /* ZYCalendInfoCell.m */; };
+		10AFC6CC1FBAF7E900A0170A /* EZActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6CA1FBAF7E800A0170A /* EZActivityView.m */; };
+		10AFC6CF1FBAFA6B00A0170A /* ActivityShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AFC6CD1FBAFA6A00A0170A /* ActivityShowView.m */; };
+		10B083021FC97A8A00D31316 /* MeDiaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B083011FC97A8A00D31316 /* MeDiaryModel.m */; };
+		10B584031FADA6F30009EF1C /* PersonalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B584021FADA6F30009EF1C /* PersonalVC.m */; };
+		10B5840B1FADB4C80009EF1C /* ZYInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B5840A1FADB4C80009EF1C /* ZYInfoView.m */; };
+		10B743301FC01EE200887E33 /* MoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B7432F1FC01EE200887E33 /* MoreVC.m */; };
+		10C84BA51FD94D7800B9623C /* WechatIMG18.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 10C84BA41FD94D7800B9623C /* WechatIMG18.jpeg */; };
+		10DEE9961FA2FDF900C1DED8 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DEE9951FA2FDF900C1DED8 /* UserModel.m */; };
 		10E875311F9F219400BDAE4E /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8752F1F9F219400BDAE4E /* MyCell.m */; };
 		10E875321F9F219400BDAE4E /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E875301F9F219400BDAE4E /* MyCell.xib */; };
 		10E875361F9F229E00BDAE4E /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E875351F9F229E00BDAE4E /* NetworkTool.m */; };
@@ -30,6 +75,7 @@
 		10E875501F9F3D2800BDAE4E /* UIBarButtonItem+CH.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8754B1F9F3D2800BDAE4E /* UIBarButtonItem+CH.m */; };
 		10E875511F9F3D2800BDAE4E /* UIImage+CH.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8754D1F9F3D2800BDAE4E /* UIImage+CH.m */; };
 		10E875521F9F3D2800BDAE4E /* UIView+GFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E8754F1F9F3D2800BDAE4E /* UIView+GFFrame.m */; };
+		10FA12A41FB5BF760027A967 /* CircleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 10FA12A21FB5BF750027A967 /* CircleTools.m */; };
 		7B44D1FE8536831BC4B3E8B3 /* libPods-Diary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301E254A167DB6A4CF998C10 /* libPods-Diary.a */; };
 		BEC673041F9C3C61003B4959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673031F9C3C61003B4959 /* main.m */; };
 		BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC673061F9C3C61003B4959 /* AppDelegate.m */; };
@@ -65,6 +111,95 @@
 		100991921FA1D5C2004B7F31 /* myhead.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = myhead.JPG; sourceTree = "<group>"; };
 		100991941FA1DC3D004B7F31 /* landscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landscape.jpg; sourceTree = "<group>"; };
 		100991961FA1DC4D004B7F31 /* landscape_blur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = landscape_blur.jpg; sourceTree = "<group>"; };
+		100991981FA2D2E5004B7F31 /* DContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DContentCell.h; sourceTree = "<group>"; };
+		100991991FA2D2E5004B7F31 /* DContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DContentCell.m; sourceTree = "<group>"; };
+		1009919B1FA2D5ED004B7F31 /* ToolCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolCategory.h; sourceTree = "<group>"; };
+		1009919C1FA2D5ED004B7F31 /* ToolCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolCategory.m; sourceTree = "<group>"; };
+		10208FF21FBC223B00FB6D26 /* EZSortMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZSortMenuView.h; sourceTree = "<group>"; };
+		10208FF31FBC223B00FB6D26 /* EZSortMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZSortMenuView.m; sourceTree = "<group>"; };
+		102956E41FCBB6A300810727 /* publicVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = publicVC.h; sourceTree = "<group>"; };
+		102956E51FCBB6A300810727 /* publicVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = publicVC.m; sourceTree = "<group>"; };
+		102FA1281FC90E6F00E90B10 /* HPViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPViewModel.h; sourceTree = "<group>"; };
+		102FA1291FC90E6F00E90B10 /* HPViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPViewModel.m; sourceTree = "<group>"; };
+		102FA12C1FC921B900E90B10 /* MyDiaryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDiaryCell.h; sourceTree = "<group>"; };
+		102FA12D1FC921B900E90B10 /* MyDiaryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDiaryCell.m; sourceTree = "<group>"; };
+		1062A5F81FC3D66900D47E43 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		1062A5F91FC3D66900D47E43 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
+		1062A5FA1FC3D66900D47E43 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		1062A5FB1FC3D66900D47E43 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		1062A5FF1FC3FE9A00D47E43 /* SRActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRActionSheet.h; sourceTree = "<group>"; };
+		1062A6001FC3FE9A00D47E43 /* SRActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRActionSheet.m; sourceTree = "<group>"; };
+		1062A6021FC407C800D47E43 /* MyViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewModel.h; sourceTree = "<group>"; };
+		1062A6031FC407C800D47E43 /* MyViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewModel.m; sourceTree = "<group>"; };
+		106883FB1FC2B572003F361F /* commentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commentVC.h; sourceTree = "<group>"; };
+		106883FC1FC2B572003F361F /* commentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = commentVC.m; sourceTree = "<group>"; };
+		106883FF1FC2B6EA003F361F /* TextViewTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewTools.m; sourceTree = "<group>"; };
+		106884001FC2B6EA003F361F /* TextViewTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewTools.h; sourceTree = "<group>"; };
+		106B12A61FB92FCF00A8032A /* ZYTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTestView.h; sourceTree = "<group>"; };
+		106B12A71FB92FCF00A8032A /* ZYTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTestView.m; sourceTree = "<group>"; };
+		106B12A81FB92FCF00A8032A /* ZYTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYTestView.xib; sourceTree = "<group>"; };
+		1076A68E1FD51F7A006B6AF9 /* ZYZoneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYZoneVC.h; sourceTree = "<group>"; };
+		1076A68F1FD51F7A006B6AF9 /* ZYZoneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYZoneVC.m; sourceTree = "<group>"; };
+		1076A6921FD521CB006B6AF9 /* JCCollectionViewWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCCollectionViewWaterfallLayout.h; sourceTree = "<group>"; };
+		1076A6931FD521CB006B6AF9 /* JCCollectionViewWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCCollectionViewWaterfallLayout.m; sourceTree = "<group>"; };
+		1076A6961FD5228C006B6AF9 /* sampleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sampleCell.h; sourceTree = "<group>"; };
+		1076A6971FD5228C006B6AF9 /* sampleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleCell.m; sourceTree = "<group>"; };
+		1076A6991FD528A4006B6AF9 /* describeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = describeCell.h; sourceTree = "<group>"; };
+		1076A69A1FD528A4006B6AF9 /* describeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = describeCell.m; sourceTree = "<group>"; };
+		1076A6AB1FD54D61006B6AF9 /* ZYCustNavView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCustNavView.h; sourceTree = "<group>"; };
+		1076A6AC1FD54D61006B6AF9 /* ZYCustNavView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCustNavView.m; sourceTree = "<group>"; };
+		1076A6AE1FD54F40006B6AF9 /* ZYZoneHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYZoneHeader.h; sourceTree = "<group>"; };
+		1076A6AF1FD54F40006B6AF9 /* ZYZoneHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYZoneHeader.m; sourceTree = "<group>"; };
+		1076A6B11FD55842006B6AF9 /* ZYTitleHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTitleHeaderView.h; sourceTree = "<group>"; };
+		1076A6B21FD55842006B6AF9 /* ZYTitleHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTitleHeaderView.m; sourceTree = "<group>"; };
+		1076A6B71FD63127006B6AF9 /* ZYTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTabBarController.h; sourceTree = "<group>"; };
+		1076A6B81FD63127006B6AF9 /* ZYTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTabBarController.m; sourceTree = "<group>"; };
+		107A544D1FAB0E0F00255686 /* otherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherVC.h; sourceTree = "<group>"; };
+		107A544E1FAB0E0F00255686 /* otherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherVC.m; sourceTree = "<group>"; };
+		107A54501FAB0FDC00255686 /* ZYTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTopView.h; sourceTree = "<group>"; };
+		107A54511FAB0FDC00255686 /* ZYTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTopView.m; sourceTree = "<group>"; };
+		107CB7A41FDA378700F54470 /* SVNTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVNTest.h; sourceTree = "<group>"; };
+		107CB7A51FDA378700F54470 /* SVNTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVNTest.m; sourceTree = "<group>"; };
+		108587071FAC5CEC00BC7047 /* ZYCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCacheManager.h; sourceTree = "<group>"; };
+		108587081FAC5CEC00BC7047 /* ZYCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCacheManager.m; sourceTree = "<group>"; };
+		1099789F1FC2E5BB003E1641 /* ZYTabHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTabHeaderView.h; sourceTree = "<group>"; };
+		109978A01FC2E5BB003E1641 /* ZYTabHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTabHeaderView.m; sourceTree = "<group>"; };
+		10AFC6AA1FBAD96300A0170A /* MSSCalendarCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarCollectionReusableView.h; sourceTree = "<group>"; };
+		10AFC6AB1FBAD96300A0170A /* MSSCalendarCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarCollectionReusableView.m; sourceTree = "<group>"; };
+		10AFC6AC1FBAD96300A0170A /* MSSCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		10AFC6AD1FBAD96300A0170A /* MSSCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		10AFC6AE1FBAD96300A0170A /* MSSCalendarDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarDefine.h; sourceTree = "<group>"; };
+		10AFC6AF1FBAD96300A0170A /* MSSCalendarHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarHeaderModel.h; sourceTree = "<group>"; };
+		10AFC6B01FBAD96300A0170A /* MSSCalendarHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarHeaderModel.m; sourceTree = "<group>"; };
+		10AFC6B11FBAD96300A0170A /* MSSCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarManager.h; sourceTree = "<group>"; };
+		10AFC6B21FBAD96300A0170A /* MSSCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarManager.m; sourceTree = "<group>"; };
+		10AFC6B31FBAD96300A0170A /* MSSCalendarPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarPopView.h; sourceTree = "<group>"; };
+		10AFC6B41FBAD96300A0170A /* MSSCalendarPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarPopView.m; sourceTree = "<group>"; };
+		10AFC6B51FBAD96300A0170A /* MSSCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCalendarViewController.h; sourceTree = "<group>"; };
+		10AFC6B61FBAD96300A0170A /* MSSCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCalendarViewController.m; sourceTree = "<group>"; };
+		10AFC6B71FBAD96300A0170A /* MSSChineseCalendarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSChineseCalendarManager.h; sourceTree = "<group>"; };
+		10AFC6B81FBAD96300A0170A /* MSSChineseCalendarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSChineseCalendarManager.m; sourceTree = "<group>"; };
+		10AFC6B91FBAD96300A0170A /* MSSCircleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSCircleLabel.h; sourceTree = "<group>"; };
+		10AFC6BA1FBAD96300A0170A /* MSSCircleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSCircleLabel.m; sourceTree = "<group>"; };
+		10AFC6BB1FBAD96300A0170A /* ZYCalendarTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCalendarTopView.h; sourceTree = "<group>"; };
+		10AFC6BC1FBAD96300A0170A /* ZYCalendarTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCalendarTopView.m; sourceTree = "<group>"; };
+		10AFC6C71FBAEA0400A0170A /* ZYCalendInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCalendInfoCell.h; sourceTree = "<group>"; };
+		10AFC6C81FBAEA0400A0170A /* ZYCalendInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCalendInfoCell.m; sourceTree = "<group>"; };
+		10AFC6CA1FBAF7E800A0170A /* EZActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZActivityView.m; sourceTree = "<group>"; };
+		10AFC6CB1FBAF7E800A0170A /* EZActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZActivityView.h; sourceTree = "<group>"; };
+		10AFC6CD1FBAFA6A00A0170A /* ActivityShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityShowView.m; sourceTree = "<group>"; };
+		10AFC6CE1FBAFA6A00A0170A /* ActivityShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityShowView.h; sourceTree = "<group>"; };
+		10B083001FC97A8A00D31316 /* MeDiaryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeDiaryModel.h; sourceTree = "<group>"; };
+		10B083011FC97A8A00D31316 /* MeDiaryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeDiaryModel.m; sourceTree = "<group>"; };
+		10B584011FADA6F20009EF1C /* PersonalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalVC.h; sourceTree = "<group>"; };
+		10B584021FADA6F30009EF1C /* PersonalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalVC.m; sourceTree = "<group>"; };
+		10B584091FADB4C80009EF1C /* ZYInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYInfoView.h; sourceTree = "<group>"; };
+		10B5840A1FADB4C80009EF1C /* ZYInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYInfoView.m; sourceTree = "<group>"; };
+		10B7432E1FC01EE200887E33 /* MoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreVC.h; sourceTree = "<group>"; };
+		10B7432F1FC01EE200887E33 /* MoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreVC.m; sourceTree = "<group>"; };
+		10C84BA41FD94D7800B9623C /* WechatIMG18.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG18.jpeg; sourceTree = "<group>"; };
+		10DEE9941FA2FDF900C1DED8 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		10DEE9951FA2FDF900C1DED8 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		10E8752E1F9F219400BDAE4E /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
 		10E8752F1F9F219400BDAE4E /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		10E875301F9F219400BDAE4E /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
@@ -87,6 +222,8 @@
 		10E8754D1F9F3D2800BDAE4E /* UIImage+CH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CH.m"; sourceTree = "<group>"; };
 		10E8754E1F9F3D2800BDAE4E /* UIView+GFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GFFrame.h"; sourceTree = "<group>"; };
 		10E8754F1F9F3D2800BDAE4E /* UIView+GFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GFFrame.m"; sourceTree = "<group>"; };
+		10FA12A21FB5BF750027A967 /* CircleTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTools.m; sourceTree = "<group>"; };
+		10FA12A31FB5BF760027A967 /* CircleTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTools.h; sourceTree = "<group>"; };
 		301E254A167DB6A4CF998C10 /* libPods-Diary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Diary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diary/Pods-Diary.release.xcconfig"; sourceTree = "<group>"; };
 		906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diary/Pods-Diary.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +286,10 @@
 		1009913D1FA18D72004B7F31 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				102FA1281FC90E6F00E90B10 /* HPViewModel.h */,
+				102FA1291FC90E6F00E90B10 /* HPViewModel.m */,
+				10B083001FC97A8A00D31316 /* MeDiaryModel.h */,
+				10B083011FC97A8A00D31316 /* MeDiaryModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -156,6 +297,8 @@
 		1009913E1FA18D72004B7F31 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				102FA12C1FC921B900E90B10 /* MyDiaryCell.h */,
+				102FA12D1FC921B900E90B10 /* MyDiaryCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -180,6 +323,8 @@
 		100991441FA1B7B5004B7F31 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				100991981FA2D2E5004B7F31 /* DContentCell.h */,
+				100991991FA2D2E5004B7F31 /* DContentCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -189,6 +334,8 @@
 			children = (
 				100991461FA1B7D3004B7F31 /* DiaryDetailVC.h */,
 				100991471FA1B7D3004B7F31 /* DiaryDetailVC.m */,
+				10B7432E1FC01EE200887E33 /* MoreVC.h */,
+				10B7432F1FC01EE200887E33 /* MoreVC.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -206,6 +353,7 @@
 				1009917B1FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.m */,
 				1009917C1FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.h */,
 				1009917D1FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.m */,
+				10C84BA41FD94D7800B9623C /* WechatIMG18.jpeg */,
 				100991941FA1DC3D004B7F31 /* landscape.jpg */,
 				100991961FA1DC4D004B7F31 /* landscape_blur.jpg */,
 				100991921FA1D5C2004B7F31 /* myhead.JPG */,
@@ -223,12 +371,190 @@
 			path = "UIImage+ImageEffects";
 			sourceTree = "<group>";
 		};
+		102956E01FCBB68800810727 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				102956E11FCBB68800810727 /* controller */,
+				102956E21FCBB68800810727 /* model */,
+				102956E31FCBB68800810727 /* view */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		102956E11FCBB68800810727 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				102956E41FCBB6A300810727 /* publicVC.h */,
+				102956E51FCBB6A300810727 /* publicVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		102956E21FCBB68800810727 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		102956E31FCBB68800810727 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1062A5F71FC3D66900D47E43 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				1062A5F81FC3D66900D47E43 /* WRCustomNavigationBar.h */,
+				1062A5F91FC3D66900D47E43 /* WRCustomNavigationBar.m */,
+				1062A5FA1FC3D66900D47E43 /* WRNavigationBar.h */,
+				1062A5FB1FC3D66900D47E43 /* WRNavigationBar.m */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		1062A5FE1FC3FE9A00D47E43 /* SRActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				1062A5FF1FC3FE9A00D47E43 /* SRActionSheet.h */,
+				1062A6001FC3FE9A00D47E43 /* SRActionSheet.m */,
+			);
+			path = SRActionSheet;
+			sourceTree = "<group>";
+		};
+		106883F91FC2B556003F361F /* comment */ = {
+			isa = PBXGroup;
+			children = (
+				106883FA1FC2B556003F361F /* controller */,
+			);
+			path = comment;
+			sourceTree = "<group>";
+		};
+		106883FA1FC2B556003F361F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				106883FB1FC2B572003F361F /* commentVC.h */,
+				106883FC1FC2B572003F361F /* commentVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		106883FE1FC2B6DB003F361F /* ZYTextView */ = {
+			isa = PBXGroup;
+			children = (
+				106884001FC2B6EA003F361F /* TextViewTools.h */,
+				106883FF1FC2B6EA003F361F /* TextViewTools.m */,
+			);
+			path = ZYTextView;
+			sourceTree = "<group>";
+		};
+		106884031FC2D5BD003F361F /* CoolNavi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoolNavi;
+			sourceTree = "<group>";
+		};
+		106B12A51FB92FA400A8032A /* ZYTest */ = {
+			isa = PBXGroup;
+			children = (
+				106B12A61FB92FCF00A8032A /* ZYTestView.h */,
+				106B12A71FB92FCF00A8032A /* ZYTestView.m */,
+				106B12A81FB92FCF00A8032A /* ZYTestView.xib */,
+				10AFC6CB1FBAF7E800A0170A /* EZActivityView.h */,
+				10AFC6CA1FBAF7E800A0170A /* EZActivityView.m */,
+				10AFC6CE1FBAFA6A00A0170A /* ActivityShowView.h */,
+				10AFC6CD1FBAFA6A00A0170A /* ActivityShowView.m */,
+				10208FF21FBC223B00FB6D26 /* EZSortMenuView.h */,
+				10208FF31FBC223B00FB6D26 /* EZSortMenuView.m */,
+			);
+			path = ZYTest;
+			sourceTree = "<group>";
+		};
+		1076A68C1FD51F53006B6AF9 /* zone */ = {
+			isa = PBXGroup;
+			children = (
+				1076A6951FD5225B006B6AF9 /* view */,
+				1076A68D1FD51F53006B6AF9 /* controller */,
+			);
+			path = zone;
+			sourceTree = "<group>";
+		};
+		1076A68D1FD51F53006B6AF9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1076A68E1FD51F7A006B6AF9 /* ZYZoneVC.h */,
+				1076A68F1FD51F7A006B6AF9 /* ZYZoneVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1076A6911FD521CB006B6AF9 /* CHTCollectionViewWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1076A6921FD521CB006B6AF9 /* JCCollectionViewWaterfallLayout.h */,
+				1076A6931FD521CB006B6AF9 /* JCCollectionViewWaterfallLayout.m */,
+			);
+			path = CHTCollectionViewWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		1076A6951FD5225B006B6AF9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1076A6961FD5228C006B6AF9 /* sampleCell.h */,
+				1076A6971FD5228C006B6AF9 /* sampleCell.m */,
+				1076A6991FD528A4006B6AF9 /* describeCell.h */,
+				1076A69A1FD528A4006B6AF9 /* describeCell.m */,
+				1076A6AB1FD54D61006B6AF9 /* ZYCustNavView.h */,
+				1076A6AC1FD54D61006B6AF9 /* ZYCustNavView.m */,
+				1076A6AE1FD54F40006B6AF9 /* ZYZoneHeader.h */,
+				1076A6AF1FD54F40006B6AF9 /* ZYZoneHeader.m */,
+				1076A6B11FD55842006B6AF9 /* ZYTitleHeaderView.h */,
+				1076A6B21FD55842006B6AF9 /* ZYTitleHeaderView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		10AFC6A91FBAD96300A0170A /* MSSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				10AFC6AA1FBAD96300A0170A /* MSSCalendarCollectionReusableView.h */,
+				10AFC6AB1FBAD96300A0170A /* MSSCalendarCollectionReusableView.m */,
+				10AFC6AC1FBAD96300A0170A /* MSSCalendarCollectionViewCell.h */,
+				10AFC6AD1FBAD96300A0170A /* MSSCalendarCollectionViewCell.m */,
+				10AFC6AE1FBAD96300A0170A /* MSSCalendarDefine.h */,
+				10AFC6AF1FBAD96300A0170A /* MSSCalendarHeaderModel.h */,
+				10AFC6B01FBAD96300A0170A /* MSSCalendarHeaderModel.m */,
+				10AFC6B11FBAD96300A0170A /* MSSCalendarManager.h */,
+				10AFC6B21FBAD96300A0170A /* MSSCalendarManager.m */,
+				10AFC6B31FBAD96300A0170A /* MSSCalendarPopView.h */,
+				10AFC6B41FBAD96300A0170A /* MSSCalendarPopView.m */,
+				10AFC6B51FBAD96300A0170A /* MSSCalendarViewController.h */,
+				10AFC6B61FBAD96300A0170A /* MSSCalendarViewController.m */,
+				10AFC6B71FBAD96300A0170A /* MSSChineseCalendarManager.h */,
+				10AFC6B81FBAD96300A0170A /* MSSChineseCalendarManager.m */,
+				10AFC6B91FBAD96300A0170A /* MSSCircleLabel.h */,
+				10AFC6BA1FBAD96300A0170A /* MSSCircleLabel.m */,
+				10AFC6C71FBAEA0400A0170A /* ZYCalendInfoCell.h */,
+				10AFC6C81FBAEA0400A0170A /* ZYCalendInfoCell.m */,
+				10AFC6BB1FBAD96300A0170A /* ZYCalendarTopView.h */,
+				10AFC6BC1FBAD96300A0170A /* ZYCalendarTopView.m */,
+			);
+			path = MSSCalendar;
+			sourceTree = "<group>";
+		};
 		10E875251F9F20FC00BDAE4E /* view */ = {
 			isa = PBXGroup;
 			children = (
 				10E8752E1F9F219400BDAE4E /* MyCell.h */,
 				10E8752F1F9F219400BDAE4E /* MyCell.m */,
 				10E875301F9F219400BDAE4E /* MyCell.xib */,
+				107A54501FAB0FDC00255686 /* ZYTopView.h */,
+				107A54511FAB0FDC00255686 /* ZYTopView.m */,
+				1099789F1FC2E5BB003E1641 /* ZYTabHeaderView.h */,
+				109978A01FC2E5BB003E1641 /* ZYTabHeaderView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -236,6 +562,10 @@
 		10E875261F9F20FC00BDAE4E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				10DEE9941FA2FDF900C1DED8 /* UserModel.h */,
+				10DEE9951FA2FDF900C1DED8 /* UserModel.m */,
+				1062A6021FC407C800D47E43 /* MyViewModel.h */,
+				1062A6031FC407C800D47E43 /* MyViewModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -261,10 +591,14 @@
 		10E875331F9F229E00BDAE4E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				1009919B1FA2D5ED004B7F31 /* ToolCategory.h */,
+				1009919C1FA2D5ED004B7F31 /* ToolCategory.m */,
 				10E875341F9F229E00BDAE4E /* NetworkTool.h */,
 				10E875351F9F229E00BDAE4E /* NetworkTool.m */,
 				10E8753D1F9F2C2800BDAE4E /* ZYUserManager.h */,
 				10E8753E1F9F2C2800BDAE4E /* ZYUserManager.m */,
+				108587071FAC5CEC00BC7047 /* ZYCacheManager.h */,
+				108587081FAC5CEC00BC7047 /* ZYCacheManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -272,6 +606,7 @@
 		10E875481F9F3D1B00BDAE4E /* customTool */ = {
 			isa = PBXGroup;
 			children = (
+				106883FE1FC2B6DB003F361F /* ZYTextView */,
 				10E875491F9F3D2800BDAE4E /* ZYBarItem */,
 			);
 			path = customTool;
@@ -327,6 +662,11 @@
 				BEC673331F9CB848003B4959 /* ZYMainVC.h */,
 				BEC673341F9CB848003B4959 /* ZYMainVC.m */,
 				BEC673321F9C4830003B4959 /* PrefixHeader.pch */,
+				107CB7A41FDA378700F54470 /* SVNTest.h */,
+				107CB7A51FDA378700F54470 /* SVNTest.m */,
+				1076A68C1FD51F53006B6AF9 /* zone */,
+				102956E01FCBB68800810727 /* public */,
+				106B12A51FB92FA400A8032A /* ZYTest */,
 				1009913B1FA18D72004B7F31 /* homePage */,
 				10E875481F9F3D1B00BDAE4E /* customTool */,
 				BEC673191F9C3F67003B4959 /* Diary */,
@@ -353,6 +693,7 @@
 		BEC673191F9C3F67003B4959 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
+				106883F91FC2B556003F361F /* comment */,
 				100991421FA1B799004B7F31 /* detail */,
 				BEC6731A1F9C3F67003B4959 /* controller */,
 				10E875271F9F210F00BDAE4E /* model */,
@@ -387,9 +728,17 @@
 			children = (
 				BEC673361F9CB882003B4959 /* MyVC.h */,
 				BEC673371F9CB882003B4959 /* MyVC.m */,
+				107A544D1FAB0E0F00255686 /* otherVC.h */,
+				107A544E1FAB0E0F00255686 /* otherVC.m */,
+				10B584011FADA6F20009EF1C /* PersonalVC.h */,
+				10B584021FADA6F30009EF1C /* PersonalVC.m */,
+				10B584091FADB4C80009EF1C /* ZYInfoView.h */,
+				10B5840A1FADB4C80009EF1C /* ZYInfoView.m */,
 				10E875401F9F2F1F00BDAE4E /* IPViewController.h */,
 				10E875411F9F2F1F00BDAE4E /* IPViewController.m */,
 				10E875421F9F2F1F00BDAE4E /* IPViewController.xib */,
+				10FA12A31FB5BF760027A967 /* CircleTools.h */,
+				10FA12A21FB5BF750027A967 /* CircleTools.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -397,6 +746,11 @@
 		BEC673241F9C4239003B4959 /* GitPack */ = {
 			isa = PBXGroup;
 			children = (
+				1076A6911FD521CB006B6AF9 /* CHTCollectionViewWaterfallLayout */,
+				1062A5FE1FC3FE9A00D47E43 /* SRActionSheet */,
+				1062A5F71FC3D66900D47E43 /* WRNavigationBar */,
+				106884031FC2D5BD003F361F /* CoolNavi */,
+				10AFC6A91FBAD96300A0170A /* MSSCalendar */,
 				100991741FA1D2C4004B7F31 /* SCHeadView */,
 				BEC673291F9C426F003B4959 /* LLTabBar */,
 				BEC673251F9C4259003B4959 /* CJNavigationController */,
@@ -420,6 +774,8 @@
 				BEC6732B1F9C426F003B4959 /* LLTabBar.m */,
 				BEC6732C1F9C426F003B4959 /* LLTabBarItem.h */,
 				BEC6732D1F9C426F003B4959 /* LLTabBarItem.m */,
+				1076A6B71FD63127006B6AF9 /* ZYTabBarController.h */,
+				1076A6B81FD63127006B6AF9 /* ZYTabBarController.m */,
 			);
 			path = LLTabBar;
 			sourceTree = "<group>";
@@ -500,7 +856,9 @@
 				100991971FA1DC4D004B7F31 /* landscape_blur.jpg in Resources */,
 				10E875321F9F219400BDAE4E /* MyCell.xib in Resources */,
 				BEC6730F1F9C3C61003B4959 /* Assets.xcassets in Resources */,
+				10C84BA51FD94D7800B9623C /* WechatIMG18.jpeg in Resources */,
 				10E875441F9F2F1F00BDAE4E /* IPViewController.xib in Resources */,
+				106B12AA1FB92FCF00A8032A /* ZYTestView.xib in Resources */,
 				BEC6730D1F9C3C61003B4959 /* Main.storyboard in Resources */,
 				100991951FA1DC3D004B7F31 /* landscape.jpg in Resources */,
 			);
@@ -533,6 +891,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Diary/Pods-Diary-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -568,32 +927,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				102956E61FCBB6A300810727 /* publicVC.m in Sources */,
 				10E875391F9F236D00BDAE4E /* dModel.m in Sources */,
+				10AFC6C21FBAD96300A0170A /* MSSCalendarViewController.m in Sources */,
+				102FA12A1FC90E6F00E90B10 /* HPViewModel.m in Sources */,
+				109978A11FC2E5BB003E1641 /* ZYTabHeaderView.m in Sources */,
+				1076A6901FD51F7A006B6AF9 /* ZYZoneVC.m in Sources */,
+				10AFC6CC1FBAF7E900A0170A /* EZActivityView.m in Sources */,
 				10E875501F9F3D2800BDAE4E /* UIBarButtonItem+CH.m in Sources */,
+				106884011FC2B6EA003F361F /* TextViewTools.m in Sources */,
+				1062A6041FC407C800D47E43 /* MyViewModel.m in Sources */,
+				106883FD1FC2B572003F361F /* commentVC.m in Sources */,
+				10AFC6BF1FBAD96300A0170A /* MSSCalendarHeaderModel.m in Sources */,
 				100991411FA18D93004B7F31 /* HomePageVC.m in Sources */,
 				BEC6730A1F9C3C61003B4959 /* ViewController.m in Sources */,
 				BEC673071F9C3C61003B4959 /* AppDelegate.m in Sources */,
+				10B743301FC01EE200887E33 /* MoreVC.m in Sources */,
+				1009919D1FA2D5ED004B7F31 /* ToolCategory.m in Sources */,
 				10E8753F1F9F2C2800BDAE4E /* ZYUserManager.m in Sources */,
 				BEC673381F9CB882003B4959 /* MyVC.m in Sources */,
+				108587091FAC5CEC00BC7047 /* ZYCacheManager.m in Sources */,
 				10E875311F9F219400BDAE4E /* MyCell.m in Sources */,
 				BEC673281F9C4259003B4959 /* CJNavigationController.m in Sources */,
+				10AFC6C51FBAD96300A0170A /* ZYCalendarTopView.m in Sources */,
+				10AFC6C41FBAD96300A0170A /* MSSCircleLabel.m in Sources */,
+				1009919A1FA2D2E5004B7F31 /* DContentCell.m in Sources */,
 				100991801FA1D2C4004B7F31 /* UIScrollView+GSKStretchyHeaderView.m in Sources */,
 				BEC673231F9C3F90003B4959 /* DiaryVC.m in Sources */,
+				107A544F1FAB0E0F00255686 /* otherVC.m in Sources */,
 				10E875471F9F385600BDAE4E /* WriteVC.m in Sources */,
+				1076A6B91FD63127006B6AF9 /* ZYTabBarController.m in Sources */,
+				10DEE9961FA2FDF900C1DED8 /* UserModel.m in Sources */,
+				10AFC6C01FBAD96300A0170A /* MSSCalendarManager.m in Sources */,
+				10B083021FC97A8A00D31316 /* MeDiaryModel.m in Sources */,
 				100991481FA1B7D3004B7F31 /* DiaryDetailVC.m in Sources */,
+				1076A6B01FD54F40006B6AF9 /* ZYZoneHeader.m in Sources */,
 				1009918F1FA1D38A004B7F31 /* UIImage+ImageEffects.m in Sources */,
+				10B5840B1FADB4C80009EF1C /* ZYInfoView.m in Sources */,
+				102FA12E1FC921B900E90B10 /* MyDiaryCell.m in Sources */,
+				10AFC6C11FBAD96300A0170A /* MSSCalendarPopView.m in Sources */,
 				10E875431F9F2F1F00BDAE4E /* IPViewController.m in Sources */,
 				1009917F1FA1D2C4004B7F31 /* GSKStretchyHeaderView.m in Sources */,
+				10AFC6C91FBAEA0400A0170A /* ZYCalendInfoCell.m in Sources */,
+				1062A6011FC3FE9A00D47E43 /* SRActionSheet.m in Sources */,
+				107CB7A61FDA378700F54470 /* SVNTest.m in Sources */,
+				1076A6981FD5228C006B6AF9 /* sampleCell.m in Sources */,
+				10B584031FADA6F30009EF1C /* PersonalVC.m in Sources */,
 				BEC673041F9C3C61003B4959 /* main.m in Sources */,
+				1076A6941FD521CB006B6AF9 /* JCCollectionViewWaterfallLayout.m in Sources */,
 				1009917E1FA1D2C4004B7F31 /* GSKSpotyLikeHeaderView.m in Sources */,
+				1076A6AD1FD54D61006B6AF9 /* ZYCustNavView.m in Sources */,
+				106B12A91FB92FCF00A8032A /* ZYTestView.m in Sources */,
 				10E875361F9F229E00BDAE4E /* NetworkTool.m in Sources */,
 				BEC6732E1F9C426F003B4959 /* LLTabBar.m in Sources */,
 				100991811FA1D2C4004B7F31 /* UIView+GSKTransplantSubviews.m in Sources */,
 				10E875511F9F3D2800BDAE4E /* UIImage+CH.m in Sources */,
 				BEC673351F9CB848003B4959 /* ZYMainVC.m in Sources */,
+				10208FF41FBC223B00FB6D26 /* EZSortMenuView.m in Sources */,
+				10AFC6BD1FBAD96300A0170A /* MSSCalendarCollectionReusableView.m in Sources */,
+				10AFC6BE1FBAD96300A0170A /* MSSCalendarCollectionViewCell.m in Sources */,
+				1062A5FD1FC3D66A00D47E43 /* WRNavigationBar.m in Sources */,
+				107A54521FAB0FDC00255686 /* ZYTopView.m in Sources */,
+				1062A5FC1FC3D66A00D47E43 /* WRCustomNavigationBar.m in Sources */,
+				1076A69B1FD528A4006B6AF9 /* describeCell.m in Sources */,
 				BEC6732F1F9C426F003B4959 /* LLTabBarItem.m in Sources */,
+				10FA12A41FB5BF760027A967 /* CircleTools.m in Sources */,
+				1076A6B31FD55842006B6AF9 /* ZYTitleHeaderView.m in Sources */,
 				10E8753C1F9F26D900BDAE4E /* ZyDiaryCell.m in Sources */,
+				10AFC6C31FBAD96300A0170A /* MSSChineseCalendarManager.m in Sources */,
 				10E875521F9F3D2800BDAE4E /* UIView+GFFrame.m in Sources */,
+				10AFC6CF1FBAFA6B00A0170A /* ActivityShowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +1117,7 @@
 			baseConfigurationReference = 906BB077034AD00AB4B0153E /* Pods-Diary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7X68WV2D5Z;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Diary/PrefixHeader.pch";
 				INFOPLIST_FILE = Diary/Info.plist;
@@ -728,6 +1132,7 @@
 			baseConfigurationReference = 802674CE257C04879F7480D8 /* Pods-Diary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7X68WV2D5Z;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Diary/PrefixHeader.pch";
 				INFOPLIST_FILE = Diary/Info.plist;

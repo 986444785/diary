@@ -164,7 +164,7 @@
 }
 
 - (UIImage *)blurImageWithMask:(UIImage *)maskImage {
-    
+     
     return [self applyBlurWithRadius:20
                            tintColor:[UIColor colorWithWhite:0 alpha:0.0]
                saturationDeltaFactor:1.4

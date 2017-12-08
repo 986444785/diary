@@ -20,9 +20,18 @@
  */
 @property(nonatomic,copy) NSString * ip;
 
+/** 
+ *  用户id
+ */
+@property(nonatomic,copy) NSString * userID;
+
 /**
  * 保存新的ip
  */
 -(void)saveIP:(NSString *)IP;
+
+
+
+
 
 @end

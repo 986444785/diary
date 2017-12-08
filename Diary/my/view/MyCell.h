@@ -10,6 +10,9 @@
 
 @interface MyCell : UITableViewCell
 
+-(void)configDictionary:(NSDictionary *)dictionary;
+
 -(void)updateCellStr:(NSString *)str;
 
 @end
+ 

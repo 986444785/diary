@@ -16,6 +16,8 @@
 @property(nonatomic) NSString * likes;
 @property(nonatomic) NSString * userid;
 @property(nonatomic) NSString * id;
-
-@end
- 
+@property(nonatomic) BOOL isLike;
+@property(nonatomic) NSString * imageUrl;
+@end 
+   
+  

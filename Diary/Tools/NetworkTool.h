@@ -28,9 +28,12 @@
 
     
 -(void)zyRequestWithURL:(NSString *)urlStr   method: (NSString *)method  parameters:(id)parameters success:(void (^)(id response))success failure:(void(^)(NSString *errorStr))failure;
-
-
-
+/**
+ *  更改头像
+ *
+ */
+-(void)changeAvater:(UIImage *)avater complate:(void(^)(NSDictionary *dic))complate failure:(void(^)(NSString * errorStr))failure;
+  
 
 
 @end

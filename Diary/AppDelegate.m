@@ -12,7 +12,7 @@
 @interface AppDelegate ()
 
 @end
-
+ 
 @implementation AppDelegate
 
 
@@ -36,6 +36,26 @@
      http://www.cnblogs.com/TTyb/p/6037548.html
      */
     
+    /*
+     http://www.jianshu.com/p/ea6ec80ad5f2
+     Git一个关于Push失败的两种解决方案
+     
+     
+     e
+     */
+    
+    
+
+    
+
+//        if (@available(iOS 11.0, *)) {
+//            [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
+//        } else {
+//            // Fallback on earlier versions
+//        }
+//
+
+    
     // 解决弹起键盘遮盖输入框的问题
     [IQKeyboardManager sharedManager].enable = YES;
     
@@ -43,7 +63,6 @@
     
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

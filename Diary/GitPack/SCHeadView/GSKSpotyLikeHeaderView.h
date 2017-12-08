@@ -3,14 +3,18 @@
 
 
 #import "GSKStretchyHeaderView.h"
-//#import "NearDynamicModel.h"
+#import "UserModel.h"
 
 @interface GSKSpotyLikeHeaderView : GSKStretchyHeaderView
 
 /**
- *  更新数据
+ *  更新数据 
  */
-//-(void)updateHeadviewWithmodel:(NearDynamicModel*)model;
+-(void)updateHeadviewWithmodel:(UserModel*)model;
 
 @end
-    
+  
+ 
+   
+ 
+

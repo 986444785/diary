@@ -28,7 +28,7 @@
 @property (nonatomic, assign) BOOL mIsMoving;
 
 
-@end
+@end 
 
 @implementation CJNavigationController
 
@@ -40,13 +40,13 @@
     }
     return self;
 } 
- 
+
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.view.layer.shadowOffset = CGSizeMake(0, 10);
     self.view.layer.shadowOpacity = 0.8;
     self.view.layer.shadowRadius = 10;
-
+ 
       
     /*
         UIScreenEdgePanGestureRecognizer *leftGestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc]

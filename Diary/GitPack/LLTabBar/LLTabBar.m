@@ -24,10 +24,10 @@
 	if (self) {
 		[self config];
 	}
-	
+	 
 	return self;
 }
-
+ 
 #pragma mark - Private Method
  
 - (void)config { 
@@ -46,7 +46,7 @@
 		} else {
 			item.selected = NO;
 		}
-	}
+	} 
 	
 	UIWindow *keyWindow = [[[UIApplication sharedApplication] delegate] window];
 	UITabBarController *tabBarController = (UITabBarController *)keyWindow.rootViewController;
@@ -67,7 +67,7 @@
 			}
 		}
 	}
-} 
+}  
  
 #pragma mark - Setter
 
@@ -81,9 +81,11 @@
     CGFloat publishItemWidth = (KSCREEN_WIDTH / 4);
     
 	NSInteger itemTag = 0;
-    BOOL passedRiseItem = NO;
+    BOOL passedRiseItem = NO;  
     
     _tabBarItems = [NSMutableArray arrayWithCapacity:_tabBarItemAttributes.count];
+    
+    NSInteger rct_y  = KIsiPhoneX ? 33 : 0;
     
 	for (id item in _tabBarItemAttributes) {
 		if ([item isKindOfClass:[NSDictionary class]]) {
@@ -91,7 +93,7 @@
             
             LLTabBarItemType type = [itemDict[kLLTabBarItemAttributeType] integerValue];
             
-            CGRect frame = CGRectMake(itemTag * normalItemWidth + (passedRiseItem ? publishItemWidth : 0), 0, type == LLTabBarItemRise ? publishItemWidth : normalItemWidth, tabBarHeight);
+            CGRect frame = CGRectMake(itemTag * normalItemWidth + (passedRiseItem ? publishItemWidth : 0), -rct_y, type == LLTabBarItemRise ? publishItemWidth : normalItemWidth, tabBarHeight);
             
             LLTabBarItem *tabBarItem = [self tabBarItemWithFrame:frame
                                                          title:itemDict[kLLTabBarItemAttributeTitle]
@@ -117,6 +119,7 @@
 } 
  
 - (LLTabBarItem *)tabBarItemWithFrame:(CGRect)frame title:(NSString *)title normalImageName:(NSString *)normalImageName selectedImageName:(NSString *)selectedImageName tabBarItemType:(LLTabBarItemType)tabBarItemType {
+    
     LLTabBarItem *item = [[LLTabBarItem alloc] initWithFrame:frame];
     [item setTitle:title forState:UIControlStateNormal];
     [item setTitle:title forState:UIControlStateSelected];
@@ -126,7 +129,8 @@
     [item setImage:normalImage forState:UIControlStateNormal];
     [item setImage:selectedImage forState:UIControlStateSelected];
     [item setTitleColor:[UIColor colorWithWhite:51 / 255.0 alpha:1] forState:UIControlStateNormal];
-    [item setTitleColor:[UIColor blueColor] forState:UIControlStateSelected];
+//    [item setTitleColor:[UIColor blueColor] forState:UIControlStateSelected];
+    [item setTitleColor:[UIColor colorWithRed:212/255.0 green:35/255.0 blue:122/255.0 alpha:1] forState:UIControlStateSelected];
     item.tabBarItemType = tabBarItemType;
     
     

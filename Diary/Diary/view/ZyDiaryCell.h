@@ -10,7 +10,11 @@
 #import "dModel.h"
 @interface ZyDiaryCell : UITableViewCell
 
+@property(nonatomic,copy) void((^collectButton)(NSString *collect));
+
 -(void)updateCellModel:(dModel*)model;
 
+
 @end
+ 
  

@@ -19,7 +19,7 @@ NSString *const kLLTabBarItemAttributeType = @"LLTabBarItemAttributeType";
 	self = [super initWithFrame:frame];
 	
 	if (self) {
-		[self config];
+		[self config]; 
 	}
 	
 	return self;
@@ -71,7 +71,7 @@ NSString *const kLLTabBarItemAttributeType = @"LLTabBarItemAttributeType";
 	self.titleLabel.center = labelCenter;
     
     
-
+  
     
 	// 还有一种实现方式是设置 Edge Insets，Xcode 7.0.1 好像有点不开心，在 IB 里面更改一下属性的时候，经常崩溃。。。
 	/* 位置还有一点不准确，推荐用上面的代码来设置

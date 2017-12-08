@@ -7,11 +7,14 @@
 //
 
 #import "DiaryDetailVC.h"
-#import "MyCell.h"
+//#import "UserModel.h"
+#import "DContentCell.h"
 #import "GSKSpotyLikeHeaderView.h"
+#import "MoreVC.h"  
 
 @interface DiaryDetailVC ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic) UITableView * tableview;
+@property(nonatomic)  GSKSpotyLikeHeaderView * headerView;
 @end
 
 @implementation DiaryDetailVC
@@ -26,15 +29,22 @@
     [self requestData];
 }
 
+//http://192.168.1.136/My2017/ZYMySqlite/api.php?method=userInfo&u_id=4
 
 -(void)requestData{
-
     
+    __weak typeof(self) vc = self;
+    //获取个人信息
+    [[NetworkTool sharedTool] zyRequestWithURL:@"/My2017/ZYMySqlite/api.php?method=userInfo" method:@"GET" parameters:@{@"u_id":self.model.userid} success:^(id response) {
+        NSLog(@"response:%@",response);
+        
+        [vc.headerView updateHeadviewWithmodel:[UserModel yy_modelWithDictionary:response[@"user"]]];
+        
+    } failure:^(NSString *errorStr) {
+        
+    }];
     
-    
-    
-    
-}
+} 
 
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -44,7 +54,7 @@
     
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
 }
-
+ 
 -(void)viewWillDisappear:(BOOL)animated{
     
     [super viewWillDisappear:animated];
@@ -66,7 +76,7 @@
         } else {
             [self.navigationController.navigationBar setBackgroundImage:nil
                                                           forBarMetrics:UIBarMetricsDefault];
-        }
+        } 
     }];
 } 
 
@@ -77,37 +87,41 @@
     _tableview.dataSource = self;
     [self.view addSubview:_tableview];
     //高度自适应
-    _tableview.backgroundColor = SUBJECT_BGCOLOR;
-    _tableview.tableFooterView = [[UIView alloc]init];
     _tableview.estimatedRowHeight = 140;
     _tableview.rowHeight = UITableViewAutomaticDimension;
-    [_tableview registerNib:[UINib nibWithNibName:@"MyCell" bundle:nil] forCellReuseIdentifier:@"MyCell"];
+    _tableview.backgroundColor = SUBJECT_BGCOLOR;
+    _tableview.tableFooterView = [[UIView alloc]init];
+    _tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [_tableview registerClass:[DContentCell class] forCellReuseIdentifier:@"DContentCell"];
     
-    
-    //头部的view
-    GSKSpotyLikeHeaderView * headerView = [[GSKSpotyLikeHeaderView alloc]initWithFrame:CGRectMake(0, 0, KSCREEN_WIDTH, 240)];
-    //    [headerView updateHeadviewWithmodel:self.topModel];
-    [_tableview addSubview:headerView];
+      
+    //头部的view 
+    _headerView = [[GSKSpotyLikeHeaderView alloc]initWithFrame:CGRectMake(0, 0, KSCREEN_WIDTH, 240)];
+//    [headerView updateHeadviewWithmodel:self.model];
+    [_tableview addSubview:_headerView];
     //    headerView.contentShrinks  =  true ;
     //    headerView.contentExpands  =  false ; //如果要在标题视图下方显示refreshControl，则很有用
 }
-
+ 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 5;
-}
+    return 1;
+} 
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    MyCell * cell = [tableView dequeueReusableCellWithIdentifier:@"MyCell"];
+    DContentCell * cell = [tableView dequeueReusableCellWithIdentifier:@"DContentCell"];
     
-//    [cell updateCellStr:_lists[indexPath.row]];
+    [cell updateCell:_model.diary];
     
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-
+    
+    MoreVC * vc = [[MoreVC alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+ 
 }
 
 

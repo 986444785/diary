@@ -16,7 +16,7 @@ static const CGSize kUserImageSize = {.width = 64, .height = 64};
 @property (nonatomic,strong) UILabel * nick_lanle;
 @property (nonatomic,strong) UILabel * info_lable;
 
-@end 
+@end     
 
 @implementation GSKSpotyLikeHeaderView
 
@@ -29,7 +29,7 @@ static const CGSize kUserImageSize = {.width = 64, .height = 64};
         [self setupViewConstraints];
     }
     return self;
-}   
+}
 
 - (void)setupViews {
     self.backgroundImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"landscape.jpg"]];
@@ -37,18 +37,18 @@ static const CGSize kUserImageSize = {.width = 64, .height = 64};
     self.backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
     self.backgroundImageView.backgroundColor = [UIColor whiteColor];
     [self.contentView addSubview:self.backgroundImageView];
-
+ 
     
     //图片模糊效果
-
-    UIImage * blurImage = [[UIImage imageNamed:@"landscape_blur.jpg"] blurImage];
-
+  
+    UIImage * blurImage = [[UIImage imageNamed:@"WechatIMG18.jpeg"] blurImage];
+    
     self.blurredBackgroundImageView = [[UIImageView alloc] initWithImage:blurImage];
 //    self.blurredBackgroundImageView = [[UIImageView alloc]init];
     self.blurredBackgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
-    self.blurredBackgroundImageView.backgroundColor = [UIColor whiteColor];
+    self.blurredBackgroundImageView.backgroundColor = [UIColor blackColor];
     [self.contentView addSubview:self.blurredBackgroundImageView];
-
+ 
     self.userImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"myhead.JPG"]];
 //    self.userImageView = [[UIImageView alloc]init];
     self.userImageView.clipsToBounds = YES;
@@ -79,18 +79,20 @@ static const CGSize kUserImageSize = {.width = 64, .height = 64};
     self.info_lable.font = [UIFont systemFontOfSize:13];
 
 }
-
-/** 
+ 
+/**  
  *  更新数据 
  */
-/*
--(void)updateHeadviewWithmodel:(NearDynamicModel *)model{
+
+-(void)updateHeadviewWithmodel:(UserModel *)model{
 //    NSDictionary * userDic = dic[@"user"];
 
-    self.nick_lanle.text = model.nickName;
+    self.nick_lanle.text = model.name;
 
-    [self.userImageView sd_setImageWithURL:[NSURL URLWithString:model.avatarImage]];
+   
+    [self.userImageView sd_setImageWithURL:[NSURL URLWithString:model.image]];
 
+    /*
     UIImage * image = [self.userImageView.image blurImage];
 
     self.blurredBackgroundImageView.image = image;
@@ -105,11 +107,17 @@ static const CGSize kUserImageSize = {.width = 64, .height = 64};
     }else{
         age = @"";
     }
+   */
+    NSString * sex =  @"男";
+    
+    self.title.text = [NSString stringWithFormat:@"%@ * %ld",sex,(long)model.age];
 
-    self.title.text = [NSString stringWithFormat:@"%@%@",sex,age];
-
-    self.info_lable.text = model.signature;
+    if (model.signature.length > 0) {
+        self.info_lable.text = model.signature;
+    }
+    
 }
+/*
 
 -(void)updateHeadviewWithDic:(NSDictionary *)dic{
 
@@ -153,7 +161,7 @@ static const CGSize kUserImageSize = {.width = 64, .height = 64};
     [self.blurredBackgroundImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.backgroundImageView);
     }];
-
+ 
     [self.userImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.contentView.mas_centerX);
         make.centerY.equalTo(self.contentView.mas_centerY).offset(-10);
@@ -200,7 +208,7 @@ static const CGSize kUserImageSize = {.width = 64, .height = 64};
     self.userImageView.alpha = alpha;
     self.title.alpha = alpha;
     self.info_lable.alpha = alpha;
-}
+} 
 
 
 

@@ -8,18 +8,23 @@
 
 #import "ZYMainVC.h"
 #import "AppDelegate.h"
+#import "CJNavigationController.h"
 #import "LLTabBar.h"
 #import "HomePageVC.h"
-#import "CJNavigationController.h"
 #import "DiaryVC.h"
 #import "MyVC.h"
-@interface ZYMainVC ()
+#import "ZYTestView.h"
+#import "ZYZoneVC.h"
+#import "publicVC.h"
+#import "ZYTabBarController.h"
+
+@interface ZYMainVC () 
 
 @end
+ 
+@implementation ZYMainVC 
 
-@implementation ZYMainVC
-
-- (void)viewDidLoad {
+- (void)viewDidLoad { 
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
@@ -27,52 +32,67 @@
 
 +(void)MainViewControllerWithDelegate:(id)delegate{
     
-    HomePageVC * homevc    = [[HomePageVC alloc]init];
-    DiaryVC    * diaryvc   = [[DiaryVC alloc]init];
-    MyVC       * myvc      = [[MyVC alloc]init];
-    MyVC       * myvc3     = [[MyVC alloc]init];
-    
-    
+    ZYZoneVC   * homevc     = [[ZYZoneVC alloc]init];
+    DiaryVC    * diaryvc    = [[DiaryVC alloc]init];
+    publicVC   * myvc3      = [[publicVC alloc]init];
+    MyVC       * myvc       = [[MyVC alloc]init];
+    ZYTestView * testvc     = [[ZYTestView alloc]init];
+     
     CJNavigationController * nav0 = [[CJNavigationController alloc]initWithRootViewController:homevc];
     CJNavigationController * nav1 = [[CJNavigationController alloc]initWithRootViewController:diaryvc];
-    CJNavigationController * nav2 = [[CJNavigationController alloc]initWithRootViewController:myvc];
-    CJNavigationController * nav3 = [[CJNavigationController alloc]initWithRootViewController:myvc3];
+    CJNavigationController * nav2 = [[CJNavigationController alloc]initWithRootViewController:myvc3];
+    CJNavigationController * nav3 = [[CJNavigationController alloc]initWithRootViewController:myvc];
+    CJNavigationController * nav4 = [[CJNavigationController alloc]initWithRootViewController:testvc];
     
-    UITabBarController * tabBarController = [[UITabBarController alloc]init];
-    tabBarController.viewControllers = @[nav0,nav1,nav2,nav3];
-
+    ZYTabBarController * tabBarController = [[ZYTabBarController alloc]init];
+    tabBarController.viewControllers = @[nav0,nav1,nav2,nav3,nav4];
+       
     [[UITabBar appearance] setBackgroundImage:[[UIImage alloc] init]];
     [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
     
+    CGRect rect  = tabBarController.tabBar.bounds;
     
-    LLTabBar *tabBar = [[LLTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
-    tabBar.tabBarItemAttributes = @[@{kLLTabBarItemAttributeTitle : @"首页", kLLTabBarItemAttributeNormalImageName : @"bar_home", kLLTabBarItemAttributeSelectedImageName : @"bar_home_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},@{kLLTabBarItemAttributeTitle : @"日记", kLLTabBarItemAttributeNormalImageName : @"bar_home", kLLTabBarItemAttributeSelectedImageName : @"bar_home_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
-        @{kLLTabBarItemAttributeTitle : @"分类", kLLTabBarItemAttributeNormalImageName : @"bar_type", kLLTabBarItemAttributeSelectedImageName : @"bar_type_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
-        @{kLLTabBarItemAttributeTitle : @"我的", kLLTabBarItemAttributeNormalImageName : @"bar_myself", kLLTabBarItemAttributeSelectedImageName : @"bar_myself_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)}];
+    if (KIsiPhoneX) {
+        rect.size.height = 83;
+    }
     
-       [tabBarController.tabBar addSubview:tabBar];
+    NSLog(@"rect  %f",rect.size.height);
+    LLTabBar *tabBar = [[LLTabBar alloc] initWithFrame:rect];
+//    LLTabBar *tabBar = [[LLTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
+//    tabBar.backgroundColor = [UIColor greenColor];
     
+//    LLTabBar *tabBar = [[LLTabBar alloc] initWithFrame:tabBarController.tabBar.bounds];
+ 
+    
+    
+    tabBar.tabBarItemAttributes = @[@{kLLTabBarItemAttributeTitle : @"首页", kLLTabBarItemAttributeNormalImageName : @"bar_home", kLLTabBarItemAttributeSelectedImageName : @"bar_home_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},@{kLLTabBarItemAttributeTitle : @"日记", kLLTabBarItemAttributeNormalImageName : @"bar_diary", kLLTabBarItemAttributeSelectedImageName : @"bar_diary_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
+        @{kLLTabBarItemAttributeTitle : @"分类", kLLTabBarItemAttributeNormalImageName : @"bar_found", kLLTabBarItemAttributeSelectedImageName : @"bar_found_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},
+        @{kLLTabBarItemAttributeTitle : @"我的", kLLTabBarItemAttributeNormalImageName : @"bar_my_select", kLLTabBarItemAttributeSelectedImageName : @"bar_my", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)},@{kLLTabBarItemAttributeTitle : @"首页", kLLTabBarItemAttributeNormalImageName : @"bar_home", kLLTabBarItemAttributeSelectedImageName : @"bar_home_select", kLLTabBarItemAttributeType : @(LLTabBarItemNormal)}];
+     
+    [tabBarController.tabBar addSubview:tabBar];
+     
     AppDelegate * app = delegate;
     app.window.rootViewController = tabBarController;
-}
+}  
+
 
 +(void)initialize
 {
-    
+    /*
     [[UINavigationBar appearance]setTintColor:[UIColor grayColor]];
     //设置整体导航栏颜色
     //        [[UINavigationBar appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     
     //设置导航颜色
     [[UINavigationBar appearance]setBarTintColor:[UIColor whiteColor]];
-    
+ 
     //返回按钮
-    UIImage * backButtonImage2 = [[UIImage imageNamed:@""] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 30, 0, 0)];
+    UIImage * backButtonImage2 = [[UIImage imageNamed:@""] resizableImageWithCapInsets:UIEdgeInsetsMake(10, 10, 0, 0)];
     
     [[UIBarButtonItem appearance]setBackgroundImage:backButtonImage2 forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
     //    //将返回按钮的文字position设置不在屏幕上显示
     [[UIBarButtonItem appearance]setBackButtonTitlePositionAdjustment:UIOffsetMake(NSIntegerMin, NSIntegerMin) forBarMetrics:UIBarMetricsDefault];
-    
+    */
     
 }
 

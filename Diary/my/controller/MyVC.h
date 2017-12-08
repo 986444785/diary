@@ -10,4 +10,8 @@
 
 @interface MyVC : UIViewController
 
+
+-(void)updateMyHeaderImageView:(UIImage *)image;
+
+
 @end

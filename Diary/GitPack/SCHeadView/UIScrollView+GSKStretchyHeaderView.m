@@ -26,7 +26,7 @@
 @interface UIView (GSKStretchyHeaderViewArrangement)
 - (BOOL)gsk_shouldBeBelowStretchyHeaderView;
 @end
-
+ 
 @implementation UIScrollView (GSKStretchyHeaderView)
 
 - (void)gsk_arrangeStretchyHeaderView:(GSKStretchyHeaderView *)headerView {
@@ -77,7 +77,7 @@
                 headerViewHeight = MIN(headerView.maximumHeight, MAX(headerViewHeight, headerView.minimumHeight));
             }
             break;
-        }
+        } 
     }
     headerFrame.size.height = headerViewHeight;
     

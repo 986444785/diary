@@ -23,7 +23,7 @@
 #import "GSKStretchyHeaderView+Protected.h"
 #import "UIScrollView+GSKStretchyHeaderView.h"
 
-NS_ASSUME_NONNULL_BEGIN
+NS_ASSUME_NONNULL_BEGIN 
 
 static const CGFloat kNibDefaultMaximumContentHeight = 240;
 

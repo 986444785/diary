@@ -15,18 +15,29 @@
 
 
 #define SUBJECT_BGCOLOR  [UIColor colorWithRed:240/255.0 green:239/255.0 blue:245/255.0 alpha:1]
+
  
-
-
 
 #define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 #define KSCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#define XSIZE(__size) KSCREEN_WIDTH * 1.00 * (__size)/375
+
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0
+#define kTabbarHeight (kStatusBarHeight > 20 ? 83:49)
+#define kNavigationBarHeight (kStatusBarHeight + kNavBarHeight)
+#define kSafeBottomHeight (kStatusBarHeight > 20 ? 34:0)
  
+#import "UIImageView+WebCache.h"
 #import "Masonry.h" 
 #import "NetworkTool.h"
 #import "YYModel.h"
 #import "Masonry.h"
 #import "ZYUserManager.h" 
-
+#import "ToolCategory.h"
+#import "SVProgressHUD.h"
+ #import "UIBarButtonItem+CH.h"
 
  

@@ -10,4 +10,16 @@
 
 @implementation dModel
 
+
+ 
+- (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
+   
+    
+    NSString * url = dic[@"imageUrl"];
+    
+    _imageUrl = [NSString stringWithFormat:@"%@%@",[ZYUserManager shareManager].ip,url];
+    
+   return  YES ;
+}
+
 @end

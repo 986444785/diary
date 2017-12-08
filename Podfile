@@ -13,5 +13,6 @@ pod ‘SDWebImage’
 pod ‘MJRefresh’
 pod ‘YYModel’
 pod 'IQKeyboardManager'
+pod 'SVProgressHUD'
 
 end

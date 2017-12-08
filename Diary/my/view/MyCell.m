@@ -14,7 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
-
+ 
 @end
 
 
@@ -24,20 +24,21 @@
     [super awakeFromNib];
     // Initialization code
 }
-
+ 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
 }
 
--(void)updateCellDictionary:(NSDictionary *)dictionary{
-    
+
+-(void)configDictionary:(NSDictionary *)dictionary{
+    _titleLabel.text = dictionary[@"title"];
+    _logoImageView.image = [UIImage imageNamed:dictionary[@"icon"]];
 }
- 
+
 
 -(void)updateCellStr:(NSString *)str{
     _titleLabel.text = str;
 }
-
 @end

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "dModel.h"
 @interface DiaryDetailVC : UIViewController
 
-@end
+@property(nonatomic) dModel * model;
+
+
+
+@end    
+ 

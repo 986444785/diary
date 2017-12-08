@@ -19,7 +19,7 @@
 @property(nonatomic,assign) BOOL isFullScreen;
 
  
-@end 
+@end  
    
   
  
